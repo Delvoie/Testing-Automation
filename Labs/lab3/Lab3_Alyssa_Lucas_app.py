@@ -19,6 +19,17 @@ def calculate_circle_area(radius):
 
 # ---------------------------
 
+# ---------------------------
+
+try:
+    print(calculate_circle_area(2 + "a"))
+except TypeError as e:
+    print(f"Test Error: {e}")
+except ValueError as e:
+    print(f"Test Error: {e}")
+
+#----------------------------
+
 
 #----------------------------
 # Shape 2: Trapezium

@@ -44,7 +44,6 @@ class TestCircle(unittest.TestCase):
         cls.bool_true = True
         cls.bool_false = False
         cls.string_value = "radius"
-        cls.invalid_operation = lambda: 1 + "radius"
         print("SetupClass Circle ")
 
     @classmethod
@@ -122,11 +121,6 @@ class TestCircle(unittest.TestCase):
         self.assertRaises(TypeError, calculate_circle_area, self.string_value)
         print(f"End of Test: Exception raised when radius of circle is string")
 
-    def test_invalid_operation(self):
-        self.assertRaises(TypeError, self.invalid_operation)
-        print(f"End of Test: Exception raised when radius involves invalid operation (1 + string)")
-
-
 # Trapezium tests
 class TestTrapezium(unittest.TestCase):
 
@@ -146,7 +140,6 @@ class TestTrapezium(unittest.TestCase):
         cls.bool_true = True
         cls.bool_false = False
         cls.string_value = "base"
-        cls.invalid_operation = lambda: 1 + "base"
         cls.valid_base = 10
         cls.valid_top = 20
         cls.valid_height = 5
@@ -231,11 +224,6 @@ class TestTrapezium(unittest.TestCase):
         self.assertRaises(TypeError, calculate_trapezium_area, self.string_value, self.valid_top, self.valid_height)
         print(f"End of Test: Exception raised when trapezium base is string")
 
-    def test_invalid_operation(self):
-        self.assertRaises(TypeError, self.invalid_operation)
-        print(f"End of Test: Exception raised when trapezium involves invalid operation (1 + string)")
-
-
 # Ellipse tests
 class TestEllipse(unittest.TestCase):
 
@@ -255,7 +243,6 @@ class TestEllipse(unittest.TestCase):
         cls.bool_true = True
         cls.bool_false = False
         cls.string_value = "axis"
-        cls.invalid_operation = lambda: 1 + "axis"
         cls.valid_major = 10
         cls.valid_minor = 5
         print("SetupClass Ellipse ")
@@ -335,11 +322,6 @@ class TestEllipse(unittest.TestCase):
         self.assertRaises(TypeError, calculate_ellipse_area, self.string_value, self.valid_minor)
         print(f"End of Test: Exception raised when ellipse major axis is string")
 
-    def test_invalid_operation(self):
-        self.assertRaises(TypeError, self.invalid_operation)
-        print(f"End of Test: Exception raised when ellipse involves invalid operation (1 + string)")
-
-
 # Rhombus tests
 class TestRhombus(unittest.TestCase):
 
@@ -359,7 +341,6 @@ class TestRhombus(unittest.TestCase):
         cls.bool_true = True
         cls.bool_false = False
         cls.string_value = "diagonal"
-        cls.invalid_operation = lambda: 1 + "diagonal"
         cls.valid_diagonal1 = 10
         cls.valid_diagonal2 = 20
         print("SetupClass Rhombus ")
@@ -438,11 +419,6 @@ class TestRhombus(unittest.TestCase):
     def test_string_diagonal1(self):
         self.assertRaises(TypeError, calculate_rhombus_area, self.string_value, self.valid_diagonal2)
         print(f"End of Test: Exception raised when rhombus diagonal1 is string")
-
-    def test_invalid_operation(self):
-        self.assertRaises(TypeError, self.invalid_operation)
-        print(f"End of Test: Exception raised when rhombus involves invalid operation (1 + string)")
-
 
 def run_tests(shape):
     loader = unittest.TestLoader()

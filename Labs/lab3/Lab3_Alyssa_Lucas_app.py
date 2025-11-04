@@ -21,25 +21,21 @@ def calculate_circle_area(radius):
 # ---------------------------
 
 # ---------------------------
-# Testing Circle Area Function
+
 test_cases = [
-    lambda: 2,
-    lambda: 2.5,
-    lambda: -3,
-    lambda: 2 + 5j,
-    lambda: 1.5 + 1.5,
-    lambda: True,
-    lambda: "radius",
-    lambda: 1 + "radius"  # usage of lambda so that This wont error when called
+    2,
+    2.5,
+    -3,
+    2 + 5j,
+    True,
+    "radius",
 ]
 
-for test_func in test_cases:
+for test in test_cases:
     try:
-        print(calculate_circle_area(test_func()))
+        print(calculate_circle_area(test))
     except (TypeError, ValueError) as e:
         print(f"Error: {e}")
-
-#-------------------------
 
 #-------------------------
 

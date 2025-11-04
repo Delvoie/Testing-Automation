@@ -7,6 +7,7 @@
     <list default="true" id="af003be5-7666-4238-b833-a1935ce6d9f3" name="Changes" comment="changed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Labs/lab3/Lab3_Alyssa_Lucas_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/lab3/Lab3_Alyssa_Lucas_app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/lab3/test_Lab3_Alyssa_Lucas.py" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/lab3/test_Lab3_Alyssa_Lucas.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,7 +136,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762279073911</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="changed">
+      <option name="closed" value="true" />
+      <created>1762280180975</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1762280180975</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

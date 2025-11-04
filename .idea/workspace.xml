@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af003be5-7666-4238-b833-a1935ce6d9f3" name="Changes" comment="a" />
+    <list default="true" id="af003be5-7666-4238-b833-a1935ce6d9f3" name="Changes" comment="changed">
+      <change afterPath="$PROJECT_DIR$/ICE/ICE3/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ICE/ICE3/app/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ICE/ICE3/app/minimum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ICE/ICE3/test/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ICE/ICE3/test/test_minumum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ICE/ICE3/test/test_minumum1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,11 +58,16 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "C:/Users/ldelv/OneDrive/Desktop/repos/Testing-Automation",
+    "last_opened_file_path": "C:/Users/ldelv/OneDrive/Desktop/repos/Testing-Automation/ICE",
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "to.speed.mode.migration.done": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ldelv\OneDrive\Desktop\repos\Testing-Automation\ICE" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -85,11 +99,20 @@
       <option name="project" value="LOCAL" />
       <updated>1762267547364</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="changed">
+      <option name="closed" value="true" />
+      <created>1762267715948</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1762267715948</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="a" />
-    <option name="LAST_COMMIT_MESSAGE" value="a" />
+    <MESSAGE value="changed" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed" />
   </component>
 </project>

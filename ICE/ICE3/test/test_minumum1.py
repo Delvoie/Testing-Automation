@@ -45,8 +45,9 @@ class TestMinimum(unittest.TestCase):
     # Test Case 9: A list where one element has a value greater than the maximum permissible
     # limit of an integer.
     def test_case_9(self):
-        with self.assertRaises(ValueError):
-            self.assertFalse(find_minimum([202]))
+        print("Running Test Case 9B: Extremely large integers (Python handles them)")
+        huge_num = 10**100
+        self.assertEqual(find_minimum([huge_num, huge_num - 1, 0]), 0)
 
 #-----------------------------------
 # Additional Test Cases

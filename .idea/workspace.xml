@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="af003be5-7666-4238-b833-a1935ce6d9f3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/PythonTestingAutomationClass.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PythonTestingAutomationClass.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ICE's/ICE3/app/minumum.py" beforeDir="false" afterPath="$PROJECT_DIR$/ICE's/ICE/app/minimum.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ICE's/ICE3/test/test_minumum.py" beforeDir="false" afterPath="$PROJECT_DIR$/ICE's/ICE/test/test_minumum.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ICE/ICE3/test/test_minumum.py" beforeDir="false" afterPath="$PROJECT_DIR$/ICE/ICE3/test/test_minumum.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ICE/ICE3/test/test_minumum1.py" beforeDir="false" afterPath="$PROJECT_DIR$/ICE/ICE3/test/test_minumum1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,21 +18,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Delvoie"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Delvoie&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Delvoie/PythonTestingAutomationClass",
-    "accountId": "9ab9fd02-d6f8-468a-b383-68f15cb28655"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Delvoie/Testing-Automation&quot;,
+    &quot;accountId&quot;: &quot;9ab9fd02-d6f8-468a-b383-68f15cb28655&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="34wJAZldivd9z8ya6OW8ZcOaNNa" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -45,15 +43,18 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python tests.Python tests in Lab3_Alyssa_Lucas_test.py.executor": "Run",
+    "Python tests.Python tests in test_Lab3_Alyssa_Lucas.py.executor": "Run",
     "Python tests.Python tests in test_minumum.py.executor": "Run",
+    "Python tests.Python tests in test_minumum1.py.executor": "Run",
     "Python.minumum.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "C:/Users/ldelv/OneDrive/Desktop/repos/PythonTestingAutomationClass",
+    "last_opened_file_path": "C:/Users/ldelv/OneDrive/Desktop/repos/Testing-Automation",
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "to.speed.mode.migration.done": "true"
   }

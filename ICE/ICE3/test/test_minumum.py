@@ -5,7 +5,7 @@
 #              
 
 import unittest
-from app.minimum import find_minimum
+from ..app.minimum import find_minimum
 
 class TestMinimum(unittest.TestCase):
 

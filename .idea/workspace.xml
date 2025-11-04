@@ -5,19 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="af003be5-7666-4238-b833-a1935ce6d9f3" name="Changes" comment="changed">
-      <change afterPath="$PROJECT_DIR$/ICE/ICE3/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ICE/ICE3/app/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ICE/ICE3/app/minimum.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ICE/ICE3/test/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ICE/ICE3/test/test_minumum.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ICE/ICE3/test/test_minumum1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/lab3/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/lab3/Lab3_Alyssa_Lucas_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/lab3/Lab3_Alyssa_Lucas_app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/lab3/Lab_proof_of_concept.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/lab3/test_Lab3_Alyssa_Lucas.py" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/lab3/test_Lab3_Alyssa_Lucas.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -50,6 +55,8 @@
     "Python tests.Python tests in test_Lab3_Alyssa_Lucas.py.executor": "Run",
     "Python tests.Python tests in test_minumum.py.executor": "Run",
     "Python tests.Python tests in test_minumum1.py.executor": "Run",
+    "Python.Lab3_Alyssa_Lucas_app.executor": "Run",
+    "Python.Lab_proof_of_concept.executor": "Run",
     "Python.minumum.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -58,13 +65,14 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "C:/Users/ldelv/OneDrive/Desktop/repos/Testing-Automation/ICE",
+    "last_opened_file_path": "C:/Users/ldelv/OneDrive/Desktop/repos/Testing-Automation/Labs/lab3",
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "to.speed.mode.migration.done": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ldelv\OneDrive\Desktop\repos\Testing-Automation\Labs\lab3" />
       <recent name="C:\Users\ldelv\OneDrive\Desktop\repos\Testing-Automation\ICE" />
     </key>
   </component>
@@ -107,12 +115,29 @@
       <option name="project" value="LOCAL" />
       <updated>1762267715948</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="changed">
+      <option name="closed" value="true" />
+      <created>1762267914812</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1762267914812</updated>
+    </task>
+    <task id="LOCAL-00005" summary="asd">
+      <option name="closed" value="true" />
+      <created>1762277309430</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1762277309430</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="a" />
     <MESSAGE value="changed" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed" />
+    <MESSAGE value="asd" />
+    <option name="LAST_COMMIT_MESSAGE" value="asd" />
   </component>
 </project>

@@ -6,6 +6,7 @@
 # imports
 import unittest
 from math import pi
+
 # import shape area functions
 from Lab3_Alyssa_Lucas_app import (
     calculate_circle_area,
@@ -13,6 +14,7 @@ from Lab3_Alyssa_Lucas_app import (
     calculate_ellipse_area,
     calculate_rhombus_area
 )
+
 
 # Circle tests
 class TestCircle(unittest.TestCase):

@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="af003be5-7666-4238-b833-a1935ce6d9f3" name="Changes" comment="changedasd">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Labs/lab3/Lab3_Alyssa_Lucas_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/lab3/Lab3_Alyssa_Lucas_app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Labs/lab3/test_Lab3_Alyssa_Lucas.py" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/lab3/test_Lab3_Alyssa_Lucas.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +53,9 @@
     "Python.Lab3_Alyssa_Lucas_app.executor": "Run",
     "Python.Lab_proof_of_concept.executor": "Run",
     "Python.minumum.executor": "Run",
+    "Python.seleniumfirsttest.executor": "Run",
+    "Python.test_minumum.executor": "Run",
+    "Python.test_minumum1.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -72,6 +73,28 @@
       <recent name="C:\Users\ldelv\OneDrive\Desktop\repos\Testing-Automation\Labs\lab3" />
       <recent name="C:\Users\ldelv\OneDrive\Desktop\repos\Testing-Automation\ICE" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Python tests in test_Lab3_Alyssa_Lucas.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="PythonTestingAutomationClass" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Labs/lab3/test_Lab3_Alyssa_Lucas.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests in test_Lab3_Alyssa_Lucas.py" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -152,7 +175,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762282866852</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="changedasd">
+      <option name="closed" value="true" />
+      <created>1762286021743</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1762286021743</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

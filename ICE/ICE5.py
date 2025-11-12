@@ -2,6 +2,8 @@ from time import sleep
 import unittest
 from selenium import webdriver
 from selenium.webdriver.common.by import By
+from selenium.webdriver.support.select import Select
+
 
 class Ice5TestCase(unittest.TestCase):
 
@@ -17,23 +19,28 @@ class Ice5TestCase(unittest.TestCase):
         self.browser.find_element(By.NAME, "firstName").send_keys("Lucas")
         self.browser.find_element(By.NAME, "lastName").send_keys("Doe")
         self.browser.find_element(By.NAME, "phone").send_keys("123456789")
-        self.browser.find_element(By.NAME, "userName").send_keys("lucas@gmail.com")
-        self.browser.find_element(By.NAME, "address1").send_keys("123 Sesame St")
+        self.browser.find_element(By.NAME, "userName").send_keys("lucas@dcmail.ca")
+        self.browser.find_element(By.NAME, "address1").send_keys("123 main St")
         self.browser.find_element(By.NAME, "city").send_keys("Tokyo")
         self.browser.find_element(By.NAME, "state").send_keys("ON")
         self.browser.find_element(By.NAME, "postalCode").send_keys("m1E3d5")
-        self.browser.find_element(By.XPATH, "//option[contains(text(),'CANADA')]").click()
+        # --- dropdown select canada ---
+        dropdown = self.browser.find_element(By.XPATH, "//select[@name='country']")
+        select = Select(dropdown)
+        select.select_by_visible_text("CANADA")
+        # ----
+        selected_option = select.first_selected_option
         self.browser.find_element(By.ID, "email").send_keys("lucas@gmail")
         self.browser.find_element(By.NAME, "password").send_keys("Password1234")
         self.browser.find_element(By.NAME, "confirmPassword").send_keys("Password1234")
-        sleep(2)
+        sleep(2) # wait for submitting
         self.browser.find_element(By.NAME, "submit").submit()
 
     def test02_login(self):
         self.browser.get("http://demo.guru99.com/test/newtours")
         self.browser.find_element(By.NAME, "userName").send_keys("lucas@gmail")
         self.browser.find_element(By.NAME, "password").send_keys("Password1234")
-        sleep(2)
+        sleep(2) # wait for submitting
         self.browser.find_element(By.NAME, "submit").click()
 
     @classmethod

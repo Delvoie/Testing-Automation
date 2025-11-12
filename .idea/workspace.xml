@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af003be5-7666-4238-b833-a1935ce6d9f3" name="Changes" comment="changedasd">
+    <list default="true" id="af003be5-7666-4238-b833-a1935ce6d9f3" name="Changes" comment="Add registration and login tests to Ice5TestCase&#10;&#10;end of ICE">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ICE/ICE5.py" beforeDir="false" afterPath="$PROJECT_DIR$/ICE/ICE5.py" afterDir="false" />
     </list>
@@ -201,7 +201,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762962628134</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Add registration and login tests to Ice5TestCase&#10;&#10;end of ICE">
+      <option name="closed" value="true" />
+      <created>1762964671464</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1762964671464</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -209,6 +217,7 @@
     <MESSAGE value="asd" />
     <MESSAGE value="changed" />
     <MESSAGE value="changedasd" />
-    <option name="LAST_COMMIT_MESSAGE" value="changedasd" />
+    <MESSAGE value="Add registration and login tests to Ice5TestCase&#10;&#10;end of ICE" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add registration and login tests to Ice5TestCase&#10;&#10;end of ICE" />
   </component>
 </project>

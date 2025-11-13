@@ -20,10 +20,10 @@ class Ice5TestCase(unittest.TestCase):
         self.browser.find_element(By.NAME, "lastName").send_keys("Doe")
         self.browser.find_element(By.NAME, "phone").send_keys("123456789")
         self.browser.find_element(By.NAME, "userName").send_keys("lucas@dcmail.ca")
-        self.browser.find_element(By.NAME, "address1").send_keys("123 main St")
+        self.browser.find_element(By.NAME, "address1").send_keys("2000 Simcoe Street North") # max length 60 char
         self.browser.find_element(By.NAME, "city").send_keys("Tokyo")
         self.browser.find_element(By.NAME, "state").send_keys("ON")
-        self.browser.find_element(By.NAME, "postalCode").send_keys("m1E3d5")
+        self.browser.find_element(By.NAME, "postalCode").send_keys("L1G0C5")
         # --- dropdown select canada ---
         dropdown = self.browser.find_element(By.XPATH, "//select[@name='country']")
         select = Select(dropdown)

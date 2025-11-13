@@ -1,3 +1,9 @@
+# Date: Nov 13, 2025
+# Name: ICE5.py - ICE5
+# Programmer:  Lucas
+# Description: Using Selenium framework and WebDriver to register
+# and login to a travel website.
+
 from time import sleep
 import unittest
 from selenium import webdriver
@@ -9,9 +15,9 @@ class Ice5TestCase(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls):
-        cls.browser = webdriver.Chrome()
+        cls.browser = webdriver.Firefox()
         cls.browser.maximize_window()
-        sleep(2)
+        sleep(2) # wait for submitting for verification
 
     def test01_reg(self):
         self.browser.get("http://demo.guru99.com/test/newtours")
@@ -33,14 +39,14 @@ class Ice5TestCase(unittest.TestCase):
         self.browser.find_element(By.ID, "email").send_keys("lucas@gmail")
         self.browser.find_element(By.NAME, "password").send_keys("Password1234")
         self.browser.find_element(By.NAME, "confirmPassword").send_keys("Password1234")
-        sleep(2) # wait for submitting
+        sleep(2) # wait for submitting for verification
         self.browser.find_element(By.NAME, "submit").submit()
 
     def test02_login(self):
         self.browser.get("http://demo.guru99.com/test/newtours")
         self.browser.find_element(By.NAME, "userName").send_keys("lucas@gmail")
         self.browser.find_element(By.NAME, "password").send_keys("Password1234")
-        sleep(2) # wait for submitting
+        sleep(2) # wait for submitting for verification
         self.browser.find_element(By.NAME, "submit").click()
 
     @classmethod

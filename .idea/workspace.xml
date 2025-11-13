@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af003be5-7666-4238-b833-a1935ce6d9f3" name="Changes" comment="Refactor registration test to use dropdown for country selection and update email format">
+    <list default="true" id="af003be5-7666-4238-b833-a1935ce6d9f3" name="Changes" comment="Add project dictionary state and update address and postal code in registration test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ICE/ICE5.py" beforeDir="false" afterPath="$PROJECT_DIR$/ICE/ICE5.py" afterDir="false" />
     </list>
@@ -217,7 +217,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762971413193</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Add project dictionary state and update address and postal code in registration test">
+      <option name="closed" value="true" />
+      <created>1763073467683</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1763073467683</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -227,6 +235,7 @@
     <MESSAGE value="changedasd" />
     <MESSAGE value="Add registration and login tests to Ice5TestCase&#10;&#10;end of ICE" />
     <MESSAGE value="Refactor registration test to use dropdown for country selection and update email format" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor registration test to use dropdown for country selection and update email format" />
+    <MESSAGE value="Add project dictionary state and update address and postal code in registration test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add project dictionary state and update address and postal code in registration test" />
   </component>
 </project>

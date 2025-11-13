@@ -4,6 +4,9 @@
 # Description: Using Selenium framework and WebDriver to register
 # and login to a travel website.
 
+# Selectors ["id", "xpath", "link text", "partial link text", "name",
+# Resources "tag name", "class name", "css selector"]
+
 from time import sleep
 import unittest
 from selenium import webdriver
@@ -17,7 +20,7 @@ class Ice5TestCase(unittest.TestCase):
     def setUpClass(cls):
         cls.browser = webdriver.Firefox()
         cls.browser.maximize_window()
-        sleep(2) # wait for submitting for verification
+        sleep(2) # wait for opening
 
     def test01_reg(self):
         self.browser.get("http://demo.guru99.com/test/newtours")
@@ -43,7 +46,7 @@ class Ice5TestCase(unittest.TestCase):
 
     def test02_login(self):
         self.browser.get("http://demo.guru99.com/test/newtours")
-        self.browser.find_element(By.NAME, "userName").send_keys(UserName)
+        self.browser.find_element(By.NAME, "userName").send_keys("lucasusername")
         self.browser.find_element(By.NAME, "password").send_keys("Password1234")
         sleep(2) # wait for submitting for verification
         self.browser.find_element(By.NAME, "submit").click()

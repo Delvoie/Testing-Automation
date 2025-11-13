@@ -35,8 +35,7 @@ class Ice5TestCase(unittest.TestCase):
         select = Select(dropdown)
         select.select_by_visible_text("CANADA")
         # ----
-        selected_option = select.first_selected_option
-        self.browser.find_element(By.ID, "email").send_keys("lucas@gmail")
+        self.browser.find_element(By.ID, "email").send_keys("lucasusername")
         self.browser.find_element(By.NAME, "password").send_keys("Password1234")
         self.browser.find_element(By.NAME, "confirmPassword").send_keys("Password1234")
         sleep(2) # wait for submitting for verification
@@ -44,7 +43,7 @@ class Ice5TestCase(unittest.TestCase):
 
     def test02_login(self):
         self.browser.get("http://demo.guru99.com/test/newtours")
-        self.browser.find_element(By.NAME, "userName").send_keys("lucas@gmail")
+        self.browser.find_element(By.NAME, "userName").send_keys(UserName)
         self.browser.find_element(By.NAME, "password").send_keys("Password1234")
         sleep(2) # wait for submitting for verification
         self.browser.find_element(By.NAME, "submit").click()

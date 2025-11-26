@@ -12,7 +12,8 @@ import unittest
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.select import Select
-
+from selenium.webdriver.support.wait import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 
 class Ice5TestCase(unittest.TestCase):
 
@@ -43,13 +44,14 @@ class Ice5TestCase(unittest.TestCase):
         self.browser.find_element(By.NAME, "confirmPassword").send_keys("Password1234")
         sleep(2) # wait for submitting for verification
         self.browser.find_element(By.NAME, "submit").submit()
-
+        
     def test02_login(self):
         self.browser.get("http://demo.guru99.com/test/newtours")
         self.browser.find_element(By.NAME, "userName").send_keys("lucasusername")
         self.browser.find_element(By.NAME, "password").send_keys("Password1234")
         sleep(2) # wait for submitting for verification
-        self.browser.find_element(By.NAME, "submit").click()
+        self.browser.find_element(By.NAME, "submit").submit()
+        sleep(2)
 
     @classmethod
     def tearDownClass(cls):

@@ -1,0 +1,5400 @@
+{
+  "id": "2db00ea4-bc31-4179-8c69-6a617f70f8ad",
+  "version": "2.0",
+  "name": "BMI Calculator",
+  "url": "https://www.calculator.net/body-fat-calculator.html",
+  "tests": [
+    {
+      "id": "51cf13b0-b8f3-428c-8868-cf51155fbf3a",
+      "name": "01-valid-male-metric",
+      "commands": [
+        {
+          "id": "75c072be-1f65-4262-9b48-026376d78aba",
+          "comment": "",
+          "command": "open",
+          "target": "https://www.calculator.net/body-fat-calculator.html",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "438f4ee1-8a83-4670-9d35-9369a58dabe4",
+          "comment": "",
+          "command": "setWindowSize",
+          "target": "0x0",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "5bd96d5f-08d3-43c4-8fba-933fdf09d350",
+          "comment": "",
+          "command": "click",
+          "target": "name=cage",
+          "targets": [
+            [
+              "name=cage",
+              "name"
+            ],
+            [
+              "css=tbody:nth-child(2) .inlongest",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@name='cage']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//table[@id='calinputtable']/tbody/tr[2]/td[2]/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//td[2]/input",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "658e2b77-9392-4d5d-9f0b-407d0c57fbc2",
+          "comment": "",
+          "command": "type",
+          "target": "name=cage",
+          "targets": [
+            [
+              "name=cage",
+              "name"
+            ],
+            [
+              "css=tbody:nth-child(2) .inlongest",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@name='cage']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//table[@id='calinputtable']/tbody/tr[2]/td[2]/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//td[2]/input",
+              "xpath:position"
+            ]
+          ],
+          "value": "15"
+        },
+        {
+          "id": "7456c569-ed94-4276-a205-2c6ff8443c55",
+          "comment": "",
+          "command": "click",
+          "target": "name=cweightkgs",
+          "targets": [
+            [
+              "name=cweightkgs",
+              "name"
+            ],
+            [
+              "css=tr:nth-child(1) .inuick",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@name='cweightkgs']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//table[@id='metricheightweight']/tbody/tr/td[2]/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//table[3]/tbody/tr/td[2]/input",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "ebb10df6-8959-463f-b6c0-93987e63c55a",
+          "comment": "",
+          "command": "type",
+          "target": "name=cweightkgs",
+          "targets": [
+            [
+              "name=cweightkgs",
+              "name"
+            ],
+            [
+              "css=tr:nth-child(1) .inuick",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@name='cweightkgs']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//table[@id='metricheightweight']/tbody/tr/td[2]/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//table[3]/tbody/tr/td[2]/input",
+              "xpath:position"
+            ]
+          ],
+          "value": "220"
+        },
+        {
+          "id": "b937b421-f81c-4513-88e1-14b94969bd9a",
+          "comment": "",
+          "command": "click",
+          "target": "id=cheightmeter",
+          "targets": [
+            [
+              "id=cheightmeter",
+              "id"
+            ],
+            [
+              "name=cheightmeter",
+              "name"
+            ],
+            [
+              "css=#cheightmeter",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@id='cheightmeter']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//table[@id='metricheightweight']/tbody/tr[2]/td[2]/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//table[3]/tbody/tr[2]/td[2]/input",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "6d2613ae-e02a-4628-9838-52809429c466",
+          "comment": "",
+          "command": "click",
+          "target": "id=cheightmeter",
+          "targets": [
+            [
+              "id=cheightmeter",
+              "id"
+            ],
+            [
+              "name=cheightmeter",
+              "name"
+            ],
+            [
+              "css=#cheightmeter",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@id='cheightmeter']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//table[@id='metricheightweight']/tbody/tr[2]/td[2]/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//table[3]/tbody/tr[2]/td[2]/input",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "d0ed7a97-22a0-4e98-b48f-37cc66850a21",
+          "comment": "",
+          "command": "doubleClick",
+          "target": "id=cheightmeter",
+          "targets": [
+            [
+              "id=cheightmeter",
+              "id"
+            ],
+            [
+              "name=cheightmeter",
+              "name"
+            ],
+            [
+              "css=#cheightmeter",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@id='cheightmeter']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//table[@id='metricheightweight']/tbody/tr[2]/td[2]/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//table[3]/tbody/tr[2]/td[2]/input",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "5d844c68-3392-48ae-90c9-c235b6aabd1f",
+          "comment": "",
+          "command": "click",
+          "target": "id=cheightmeter",
+          "targets": [
+            [
+              "id=cheightmeter",
+              "id"
+            ],
+            [
+              "name=cheightmeter",
+              "name"
+            ],
+            [
+              "css=#cheightmeter",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@id='cheightmeter']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//table[@id='metricheightweight']/tbody/tr[2]/td[2]/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//table[3]/tbody/tr[2]/td[2]/input",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "3cedd20f-1fa4-4866-946f-c76968ecc100",
+          "comment": "",
+          "command": "type",
+          "target": "id=cheightmeter",
+          "targets": [
+            [
+              "id=cheightmeter",
+              "id"
+            ],
+            [
+              "name=cheightmeter",
+              "name"
+            ],
+            [
+              "css=#cheightmeter",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@id='cheightmeter']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//table[@id='metricheightweight']/tbody/tr[2]/td[2]/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//table[3]/tbody/tr[2]/td[2]/input",
+              "xpath:position"
+            ]
+          ],
+          "value": "90"
+        },
+        {
+          "id": "86605e07-20b8-43f2-b53b-e63c0fbd534a",
+          "comment": "",
+          "command": "click",
+          "target": "id=cneckmeter",
+          "targets": [
+            [
+              "id=cneckmeter",
+              "id"
+            ],
+            [
+              "name=cneckmeter",
+              "name"
+            ],
+            [
+              "css=#cneckmeter",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@id='cneckmeter']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//table[@id='metricheightweight']/tbody/tr[3]/td[2]/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//tr[3]/td[2]/input",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "0be1df87-c494-4a74-8f75-65f9916f5e32",
+          "comment": "",
+          "command": "click",
+          "target": "id=cneckmeter",
+          "targets": [
+            [
+              "id=cneckmeter",
+              "id"
+            ],
+            [
+              "name=cneckmeter",
+              "name"
+            ],
+            [
+              "css=#cneckmeter",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@id='cneckmeter']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//table[@id='metricheightweight']/tbody/tr[3]/td[2]/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//tr[3]/td[2]/input",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "dd717275-4cef-479e-8a92-ffe84fe00290",
+          "comment": "",
+          "command": "doubleClick",
+          "target": "id=cneckmeter",
+          "targets": [
+            [
+              "id=cneckmeter",
+              "id"
+            ],
+            [
+              "name=cneckmeter",
+              "name"
+            ],
+            [
+              "css=#cneckmeter",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@id='cneckmeter']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//table[@id='metricheightweight']/tbody/tr[3]/td[2]/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//tr[3]/td[2]/input",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "110c9823-907a-4d6c-b355-290b63a8f188",
+          "comment": "",
+          "command": "click",
+          "target": "id=cneckmeter",
+          "targets": [
+            [
+              "id=cneckmeter",
+              "id"
+            ],
+            [
+              "name=cneckmeter",
+              "name"
+            ],
+            [
+              "css=#cneckmeter",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@id='cneckmeter']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//table[@id='metricheightweight']/tbody/tr[3]/td[2]/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//tr[3]/td[2]/input",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "d1464e76-bfa0-4543-a03c-c9d4d9f588d2",
+          "comment": "",
+          "command": "type",
+          "target": "id=cneckmeter",
+          "targets": [
+            [
+              "id=cneckmeter",
+              "id"
+            ],
+            [
+              "name=cneckmeter",
+              "name"
+            ],
+            [
+              "css=#cneckmeter",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@id='cneckmeter']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//table[@id='metricheightweight']/tbody/tr[3]/td[2]/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//tr[3]/td[2]/input",
+              "xpath:position"
+            ]
+          ],
+          "value": "18"
+        },
+        {
+          "id": "697373d5-2ea8-425d-a547-20e9d3c43525",
+          "comment": "",
+          "command": "click",
+          "target": "id=cwaistmeter",
+          "targets": [
+            [
+              "id=cwaistmeter",
+              "id"
+            ],
+            [
+              "name=cwaistmeter",
+              "name"
+            ],
+            [
+              "css=#cwaistmeter",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@id='cwaistmeter']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//table[@id='metricheightweight']/tbody/tr[4]/td[2]/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//tr[4]/td[2]/input",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "054632af-c33a-4ad0-b852-28aaa85edb94",
+          "comment": "",
+          "command": "click",
+          "target": "id=cwaistmeter",
+          "targets": [
+            [
+              "id=cwaistmeter",
+              "id"
+            ],
+            [
+              "name=cwaistmeter",
+              "name"
+            ],
+            [
+              "css=#cwaistmeter",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@id='cwaistmeter']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//table[@id='metricheightweight']/tbody/tr[4]/td[2]/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//tr[4]/td[2]/input",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "3df41650-41c1-4924-9e42-351406c782f2",
+          "comment": "",
+          "command": "doubleClick",
+          "target": "id=cwaistmeter",
+          "targets": [
+            [
+              "id=cwaistmeter",
+              "id"
+            ],
+            [
+              "name=cwaistmeter",
+              "name"
+            ],
+            [
+              "css=#cwaistmeter",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@id='cwaistmeter']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//table[@id='metricheightweight']/tbody/tr[4]/td[2]/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//tr[4]/td[2]/input",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "7e8476c1-eb62-49f1-96a2-b05f821a027a",
+          "comment": "",
+          "command": "click",
+          "target": "id=cwaistmeter",
+          "targets": [
+            [
+              "id=cwaistmeter",
+              "id"
+            ],
+            [
+              "name=cwaistmeter",
+              "name"
+            ],
+            [
+              "css=#cwaistmeter",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@id='cwaistmeter']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//table[@id='metricheightweight']/tbody/tr[4]/td[2]/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//tr[4]/td[2]/input",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "6ba91cbf-2b7f-4230-886d-fcabd84eaabf",
+          "comment": "",
+          "command": "type",
+          "target": "id=cwaistmeter",
+          "targets": [
+            [
+              "id=cwaistmeter",
+              "id"
+            ],
+            [
+              "name=cwaistmeter",
+              "name"
+            ],
+            [
+              "css=#cwaistmeter",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@id='cwaistmeter']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//table[@id='metricheightweight']/tbody/tr[4]/td[2]/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//tr[4]/td[2]/input",
+              "xpath:position"
+            ]
+          ],
+          "value": "100"
+        },
+        {
+          "id": "698443a0-ca96-4a0a-b2da-4047a8b9f10e",
+          "comment": "",
+          "command": "click",
+          "target": "name=x",
+          "targets": [
+            [
+              "name=x",
+              "name"
+            ],
+            [
+              "css=table:nth-child(4) input:nth-child(1)",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@name='x']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//div[@id='content']/div[3]/div[2]/form/table[4]/tbody/tr/td/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//table[4]/tbody/tr/td/input",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "deb8ed53-6492-47a9-92b0-d380d4c23d0c",
+          "comment": "",
+          "command": "click",
+          "target": "css=.rightresult",
+          "targets": [
+            [
+              "css=.rightresult",
+              "css:finder"
+            ],
+            [
+              "xpath=//div[@id='content']/div[3]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div/div[3]",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "15bc0587-2adf-4787-a663-85324402cba4",
+          "comment": "",
+          "command": "click",
+          "target": "css=font > b",
+          "targets": [
+            [
+              "css=font > b",
+              "css:finder"
+            ],
+            [
+              "xpath=//div[@id='content']/div[3]/p/font/b",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//b",
+              "xpath:position"
+            ],
+            [
+              "xpath=//b[contains(.,'Body Fat: 60.7%')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "44fac24d-5e1c-4c0a-b2d5-e7a902a699f7",
+          "comment": "",
+          "command": "click",
+          "target": "css=font > b",
+          "targets": [
+            [
+              "css=font > b",
+              "css:finder"
+            ],
+            [
+              "xpath=//div[@id='content']/div[3]/p/font/b",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//b",
+              "xpath:position"
+            ],
+            [
+              "xpath=//b[contains(.,'Body Fat: 60.7%')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "2117c007-fc7b-42bd-b07d-6e16da94d79c",
+          "comment": "",
+          "command": "doubleClick",
+          "target": "css=font > b",
+          "targets": [
+            [
+              "css=font > b",
+              "css:finder"
+            ],
+            [
+              "xpath=//div[@id='content']/div[3]/p/font/b",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//b",
+              "xpath:position"
+            ],
+            [
+              "xpath=//b[contains(.,'Body Fat: 60.7%')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "556a4ad0-89dc-49da-9137-24a46c175856",
+          "comment": "",
+          "command": "assertText",
+          "target": "css=font > b",
+          "targets": [
+            [
+              "css=font > b",
+              "css:finder"
+            ],
+            [
+              "xpath=//div[@id='content']/div[3]/p/font/b",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//b",
+              "xpath:position"
+            ],
+            [
+              "xpath=//b[contains(.,'Body Fat: 60.7%')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": "Body Fat: 60.7%"
+        },
+        {
+          "id": "fcc54be1-249d-4ac2-99f6-fcc894651294",
+          "comment": "",
+          "command": "click",
+          "target": "css=#right > div:nth-child(1)",
+          "targets": [
+            [
+              "css=#right > div:nth-child(1)",
+              "css:finder"
+            ],
+            [
+              "xpath=//div[@id='right']/div",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div[3]/div[2]/div",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "b7c8cf2f-14cb-4810-b603-0597b3c0705a",
+          "comment": "",
+          "command": "close",
+          "target": "",
+          "targets": [],
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "ee6cfcc2-50ad-4b8b-a26d-f722d997febe",
+      "name": "02-valid-female-imperial",
+      "commands": [
+        {
+          "id": "c7ee6658-a4d6-4251-8773-81766711107d",
+          "comment": "",
+          "command": "open",
+          "target": "https://www.calculator.net/body-fat-calculator.html",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "5267e0e4-2412-41d9-aaa0-03bdb3dc92e2",
+          "comment": "",
+          "command": "setWindowSize",
+          "target": "0x0",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "dd465917-8bdc-45be-97c2-92bcc847b2fd",
+          "comment": "",
+          "command": "click",
+          "target": "css=tbody:nth-child(2) > tr:nth-child(2)",
+          "targets": [
+            [
+              "css=tbody:nth-child(2) > tr:nth-child(2)",
+              "css:finder"
+            ],
+            [
+              "xpath=//table[@id='calinputtable']/tbody/tr[2]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//tr[2]",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "e130705c-db66-4a3c-a323-832014ec47e9",
+          "comment": "",
+          "command": "click",
+          "target": "css=.cbcontainer:nth-child(2)",
+          "targets": [
+            [
+              "css=.cbcontainer:nth-child(2)",
+              "css:finder"
+            ],
+            [
+              "xpath=//table[@id='calinputtable']/tbody/tr/td[2]/label[2]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//label[2]",
+              "xpath:position"
+            ],
+            [
+              "xpath=//label[contains(.,'female')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "d56f5230-d092-476d-a96f-ec115e0fd586",
+          "comment": "",
+          "command": "click",
+          "target": "linkText=US Units",
+          "targets": [
+            [
+              "linkText=US Units",
+              "linkText"
+            ],
+            [
+              "css=li:nth-child(1) > a",
+              "css:finder"
+            ],
+            [
+              "xpath=//a[contains(text(),'US Units')]",
+              "xpath:link"
+            ],
+            [
+              "xpath=//a[@onclick=\"return popMenu('standard',1);\"]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//div[@id='topmenu']/ul/li/a",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//a[contains(@href, '#')]",
+              "xpath:href"
+            ],
+            [
+              "xpath=//li/a",
+              "xpath:position"
+            ],
+            [
+              "xpath=//a[contains(.,'US Units')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "b75e2af3-bb11-4cc4-ab4e-44bae2487b4d",
+          "comment": "",
+          "command": "click",
+          "target": "css=tbody:nth-child(2) > tr:nth-child(2)",
+          "targets": [
+            [
+              "css=tbody:nth-child(2) > tr:nth-child(2)",
+              "css:finder"
+            ],
+            [
+              "xpath=//table[@id='calinputtable']/tbody/tr[2]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//tr[2]",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "436e7d9e-8251-476c-b253-5b0651154a07",
+          "comment": "",
+          "command": "type",
+          "target": "name=cage",
+          "targets": [
+            [
+              "name=cage",
+              "name"
+            ],
+            [
+              "css=tbody:nth-child(2) .inlongest",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@name='cage']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//table[@id='calinputtable']/tbody/tr[2]/td[2]/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//td[2]/input",
+              "xpath:position"
+            ]
+          ],
+          "value": "40"
+        },
+        {
+          "id": "132e22ea-3fc7-4043-afb0-aac2f3608d30",
+          "comment": "",
+          "command": "click",
+          "target": "id=content",
+          "targets": [
+            [
+              "id=content",
+              "id"
+            ],
+            [
+              "css=#content",
+              "css:finder"
+            ],
+            [
+              "xpath=//div[@id='content']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//div[@id='contentout']/div",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div[3]/div",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "ea2108d2-281f-4f28-b1e0-caae1a7f918c",
+          "comment": "",
+          "command": "type",
+          "target": "name=cweightlbs",
+          "targets": [
+            [
+              "name=cweightlbs",
+              "name"
+            ],
+            [
+              "css=.inuipound",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@name='cweightlbs']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//table[@id='standardheightweight']/tbody/tr/td[2]/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//table[2]/tbody/tr/td[2]/input",
+              "xpath:position"
+            ]
+          ],
+          "value": "220.46"
+        },
+        {
+          "id": "989c3d9b-23ec-48fc-98e6-7f34d663da40",
+          "comment": "",
+          "command": "click",
+          "target": "css=#standardheightweight tr:nth-child(2)",
+          "targets": [
+            [
+              "css=#standardheightweight tr:nth-child(2)",
+              "css:finder"
+            ],
+            [
+              "xpath=//table[@id='standardheightweight']/tbody/tr[2]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//table[2]/tbody/tr[2]",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "1b561c2b-ecc7-40f9-a53d-484de68d61ef",
+          "comment": "",
+          "command": "type",
+          "target": "id=cheightfeet",
+          "targets": [
+            [
+              "id=cheightfeet",
+              "id"
+            ],
+            [
+              "name=cheightfeet",
+              "name"
+            ],
+            [
+              "css=#cheightfeet",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@id='cheightfeet']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//table[@id='standardheightweight']/tbody/tr[2]/td[2]/table/tbody/tr/td/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//td[2]/table/tbody/tr/td/input",
+              "xpath:position"
+            ]
+          ],
+          "value": "6"
+        },
+        {
+          "id": "8cc262ac-7b86-4e52-854b-183763022c12",
+          "comment": "",
+          "command": "mouseDownAt",
+          "target": "id=cheightfeet",
+          "targets": [
+            [
+              "id=cheightfeet",
+              "id"
+            ],
+            [
+              "name=cheightfeet",
+              "name"
+            ],
+            [
+              "css=#cheightfeet",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@id='cheightfeet']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//table[@id='standardheightweight']/tbody/tr[2]/td[2]/table/tbody/tr/td/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//td[2]/table/tbody/tr/td/input",
+              "xpath:position"
+            ]
+          ],
+          "value": "23.729164123535156,14.33331298828125"
+        },
+        {
+          "id": "80a7fcb9-ac7a-4afb-9491-1c05592bb163",
+          "comment": "",
+          "command": "mouseMoveAt",
+          "target": "id=cheightfeet",
+          "targets": [
+            [
+              "id=cheightfeet",
+              "id"
+            ],
+            [
+              "name=cheightfeet",
+              "name"
+            ],
+            [
+              "css=#cheightfeet",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@id='cheightfeet']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//table[@id='standardheightweight']/tbody/tr[2]/td[2]/table/tbody/tr/td/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//td[2]/table/tbody/tr/td/input",
+              "xpath:position"
+            ]
+          ],
+          "value": "23.729164123535156,14.33331298828125"
+        },
+        {
+          "id": "ae9627c5-ffb1-4f6c-aa00-beec7f73326d",
+          "comment": "",
+          "command": "mouseUpAt",
+          "target": "id=cheightfeet",
+          "targets": [
+            [
+              "id=cheightfeet",
+              "id"
+            ],
+            [
+              "name=cheightfeet",
+              "name"
+            ],
+            [
+              "css=#cheightfeet",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@id='cheightfeet']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//table[@id='standardheightweight']/tbody/tr[2]/td[2]/table/tbody/tr/td/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//td[2]/table/tbody/tr/td/input",
+              "xpath:position"
+            ]
+          ],
+          "value": "23.729164123535156,14.33331298828125"
+        },
+        {
+          "id": "ee2b0538-c4bc-4908-850b-bd1f8aa65f27",
+          "comment": "",
+          "command": "click",
+          "target": "css=tr:nth-child(2) tr",
+          "targets": [
+            [
+              "css=tr:nth-child(2) tr",
+              "css:finder"
+            ],
+            [
+              "xpath=//table[@id='standardheightweight']/tbody/tr[2]/td[2]/table/tbody/tr",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//td[2]/table/tbody/tr",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "a92fdb46-7776-4ddd-92c1-45dec2e7c38e",
+          "comment": "",
+          "command": "type",
+          "target": "id=cheightinch",
+          "targets": [
+            [
+              "id=cheightinch",
+              "id"
+            ],
+            [
+              "name=cheightinch",
+              "name"
+            ],
+            [
+              "css=#cheightinch",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@id='cheightinch']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//table[@id='standardheightweight']/tbody/tr[2]/td[2]/table/tbody/tr/td[3]/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//td[3]/input",
+              "xpath:position"
+            ]
+          ],
+          "value": "2"
+        },
+        {
+          "id": "f037a429-dd61-4b56-afab-3515726d8046",
+          "comment": "",
+          "command": "click",
+          "target": "css=#standardheightweight tr:nth-child(3)",
+          "targets": [
+            [
+              "css=#standardheightweight tr:nth-child(3)",
+              "css:finder"
+            ],
+            [
+              "xpath=//table[@id='standardheightweight']/tbody/tr[3]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//tr[3]",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "d68eb85e-1202-4bff-9323-d1f5aa0678dc",
+          "comment": "",
+          "command": "type",
+          "target": "id=cneckfeet",
+          "targets": [
+            [
+              "id=cneckfeet",
+              "id"
+            ],
+            [
+              "name=cneckfeet",
+              "name"
+            ],
+            [
+              "css=#cneckfeet",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@id='cneckfeet']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//table[@id='standardheightweight']/tbody/tr[3]/td[2]/table/tbody/tr/td/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//tr[3]/td[2]/table/tbody/tr/td/input",
+              "xpath:position"
+            ]
+          ],
+          "value": "0"
+        },
+        {
+          "id": "dba874c6-4dfc-4a74-bfb9-17b0d5838b27",
+          "comment": "",
+          "command": "click",
+          "target": "css=tr:nth-child(3) tr",
+          "targets": [
+            [
+              "css=tr:nth-child(3) tr",
+              "css:finder"
+            ],
+            [
+              "xpath=//table[@id='standardheightweight']/tbody/tr[3]/td[2]/table/tbody/tr",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//tr[3]/td[2]/table/tbody/tr",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "f3712c8e-9201-418e-a403-d1bd6eb94bcf",
+          "comment": "",
+          "command": "type",
+          "target": "id=cneckinch",
+          "targets": [
+            [
+              "id=cneckinch",
+              "id"
+            ],
+            [
+              "name=cneckinch",
+              "name"
+            ],
+            [
+              "css=#cneckinch",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@id='cneckinch']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//table[@id='standardheightweight']/tbody/tr[3]/td[2]/table/tbody/tr/td[3]/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//tr[3]/td[2]/table/tbody/tr/td[3]/input",
+              "xpath:position"
+            ]
+          ],
+          "value": "22.44"
+        },
+        {
+          "id": "4f85928b-c710-4068-bb15-2bd57765f3c9",
+          "comment": "",
+          "command": "click",
+          "target": "css=body",
+          "targets": [
+            [
+              "css=body",
+              "css:finder"
+            ],
+            [
+              "xpath=//body",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "2b8cb6cc-a1ea-4481-ac77-662b98bdeb4d",
+          "comment": "",
+          "command": "type",
+          "target": "id=cwaistfeet",
+          "targets": [
+            [
+              "id=cwaistfeet",
+              "id"
+            ],
+            [
+              "name=cwaistfeet",
+              "name"
+            ],
+            [
+              "css=#cwaistfeet",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@id='cwaistfeet']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//table[@id='standardheightweight']/tbody/tr[4]/td[2]/table/tbody/tr/td/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//tr[4]/td[2]/table/tbody/tr/td/input",
+              "xpath:position"
+            ]
+          ],
+          "value": "0"
+        },
+        {
+          "id": "172fd2b0-8037-46c6-a6bd-762870344885",
+          "comment": "",
+          "command": "click",
+          "target": "css=tr:nth-child(4) > td:nth-child(2) tr",
+          "targets": [
+            [
+              "css=tr:nth-child(4) > td:nth-child(2) tr",
+              "css:finder"
+            ],
+            [
+              "xpath=//table[@id='standardheightweight']/tbody/tr[4]/td[2]/table/tbody/tr",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//tr[4]/td[2]/table/tbody/tr",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "55060b01-76da-4105-a5d2-052fb81808c5",
+          "comment": "",
+          "command": "type",
+          "target": "id=cwaistinch",
+          "targets": [
+            [
+              "id=cwaistinch",
+              "id"
+            ],
+            [
+              "name=cwaistinch",
+              "name"
+            ],
+            [
+              "css=#cwaistinch",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@id='cwaistinch']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//table[@id='standardheightweight']/tbody/tr[4]/td[2]/table/tbody/tr/td[3]/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//tr[4]/td[2]/table/tbody/tr/td[3]/input",
+              "xpath:position"
+            ]
+          ],
+          "value": "38.58"
+        },
+        {
+          "id": "bd2abfb3-03d5-4fb9-a75d-415aa27b5655",
+          "comment": "",
+          "command": "click",
+          "target": "css=#standardheightweight tr:nth-child(5)",
+          "targets": [
+            [
+              "css=#standardheightweight tr:nth-child(5)",
+              "css:finder"
+            ],
+            [
+              "xpath=//table[@id='standardheightweight']/tbody/tr[5]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//tr[5]",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "8df20aec-1d8e-47b9-9290-d191be364eec",
+          "comment": "",
+          "command": "type",
+          "target": "id=chipfeet",
+          "targets": [
+            [
+              "id=chipfeet",
+              "id"
+            ],
+            [
+              "name=chipfeet",
+              "name"
+            ],
+            [
+              "css=#chipfeet",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@id='chipfeet']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//table[@id='standardhiptable']/tbody/tr/td/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//tr[5]/td[2]/table/tbody/tr/td/input",
+              "xpath:position"
+            ]
+          ],
+          "value": "0"
+        },
+        {
+          "id": "1f30f763-0498-4df2-a492-9b981ddaf2f2",
+          "comment": "",
+          "command": "click",
+          "target": "css=#standardhiptable tr",
+          "targets": [
+            [
+              "css=#standardhiptable tr",
+              "css:finder"
+            ],
+            [
+              "xpath=//table[@id='standardhiptable']/tbody/tr",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//tr[5]/td[2]/table/tbody/tr",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "37784d14-5f84-4250-96ed-1d172b33a115",
+          "comment": "",
+          "command": "click",
+          "target": "id=chipinch",
+          "targets": [
+            [
+              "id=chipinch",
+              "id"
+            ],
+            [
+              "name=chipinch",
+              "name"
+            ],
+            [
+              "css=#chipinch",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@id='chipinch']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//table[@id='standardhiptable']/tbody/tr/td[3]/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//tr[5]/td[2]/table/tbody/tr/td[3]/input",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "6104c34f-a355-485d-856b-0378a9c6ba41",
+          "comment": "",
+          "command": "click",
+          "target": "id=chipinch",
+          "targets": [
+            [
+              "id=chipinch",
+              "id"
+            ],
+            [
+              "name=chipinch",
+              "name"
+            ],
+            [
+              "css=#chipinch",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@id='chipinch']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//table[@id='standardhiptable']/tbody/tr/td[3]/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//tr[5]/td[2]/table/tbody/tr/td[3]/input",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "eff3933e-b89d-40d3-975d-8cced4b999c8",
+          "comment": "",
+          "command": "click",
+          "target": "id=chipinch",
+          "targets": [
+            [
+              "id=chipinch",
+              "id"
+            ],
+            [
+              "name=chipinch",
+              "name"
+            ],
+            [
+              "css=#chipinch",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@id='chipinch']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//table[@id='standardhiptable']/tbody/tr/td[3]/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//tr[5]/td[2]/table/tbody/tr/td[3]/input",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "f72a43d3-26da-4a5d-a3f3-7177f95725c4",
+          "comment": "",
+          "command": "doubleClick",
+          "target": "id=chipinch",
+          "targets": [
+            [
+              "id=chipinch",
+              "id"
+            ],
+            [
+              "name=chipinch",
+              "name"
+            ],
+            [
+              "css=#chipinch",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@id='chipinch']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//table[@id='standardhiptable']/tbody/tr/td[3]/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//tr[5]/td[2]/table/tbody/tr/td[3]/input",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "f8ba75b0-f5b1-4ef9-8fd3-7f0c40f1db19",
+          "comment": "",
+          "command": "type",
+          "target": "id=chipinch",
+          "targets": [
+            [
+              "id=chipinch",
+              "id"
+            ],
+            [
+              "name=chipinch",
+              "name"
+            ],
+            [
+              "css=#chipinch",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@id='chipinch']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//table[@id='standardhiptable']/tbody/tr/td[3]/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//tr[5]/td[2]/table/tbody/tr/td[3]/input",
+              "xpath:position"
+            ]
+          ],
+          "value": "39.37"
+        },
+        {
+          "id": "e52637fd-5e24-46cf-8473-ebc766dc2477",
+          "comment": "",
+          "command": "click",
+          "target": "name=x",
+          "targets": [
+            [
+              "name=x",
+              "name"
+            ],
+            [
+              "css=table:nth-child(4) input:nth-child(1)",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@name='x']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//div[@id='content']/div[3]/div[2]/form/table[4]/tbody/tr/td/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//table[4]/tbody/tr/td/input",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "59612575-e6c0-4281-a6a3-27b816e77cea",
+          "comment": "",
+          "command": "click",
+          "target": "css=.verybigtext",
+          "targets": [
+            [
+              "css=.verybigtext",
+              "css:finder"
+            ],
+            [
+              "xpath=//div[@id='content']/div[3]/p",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//p",
+              "xpath:position"
+            ],
+            [
+              "xpath=//p[contains(.,'Body Fat: 23.2%')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "abd37c5f-a6b8-490b-8e51-bec1a0573a0c",
+          "comment": "",
+          "command": "assertText",
+          "target": "css=font > b",
+          "targets": [
+            [
+              "css=font > b",
+              "css:finder"
+            ],
+            [
+              "xpath=//div[@id='content']/div[3]/p/font/b",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//b",
+              "xpath:position"
+            ],
+            [
+              "xpath=//b[contains(.,'Body Fat: 23.2%')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": "Body Fat: 23.2%"
+        },
+        {
+          "id": "3f33b617-e03e-4b99-be71-1767bec9978d",
+          "comment": "",
+          "command": "close",
+          "target": "",
+          "targets": [],
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "e3b604af-6f2d-4dcc-8bc1-c379bc1ef7a8",
+      "name": "03-invalid-negative-metric",
+      "commands": [
+        {
+          "id": "2d33d4b7-d4c4-46da-8496-f1866fbbef2c",
+          "comment": "",
+          "command": "open",
+          "target": "https://www.calculator.net/body-fat-calculator.html",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "d8a15ac4-32f8-49bc-8a9b-bba0de863529",
+          "comment": "",
+          "command": "setWindowSize",
+          "target": "0x0",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "ee6b10d5-02f6-4d67-b8d7-e68caf7ee4f1",
+          "comment": "",
+          "command": "click",
+          "target": "css=#metricheightweight tr:nth-child(1)",
+          "targets": [
+            [
+              "css=#metricheightweight tr:nth-child(1)",
+              "css:finder"
+            ],
+            [
+              "xpath=//table[@id='metricheightweight']/tbody/tr",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//table[3]/tbody/tr",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "b7ad342b-ebf8-498e-8e88-5e8e5e81408e",
+          "comment": "",
+          "command": "type",
+          "target": "name=cweightkgs",
+          "targets": [
+            [
+              "name=cweightkgs",
+              "name"
+            ],
+            [
+              "css=tr:nth-child(1) .inuick",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@name='cweightkgs']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//table[@id='metricheightweight']/tbody/tr/td[2]/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//table[3]/tbody/tr/td[2]/input",
+              "xpath:position"
+            ]
+          ],
+          "value": "-2"
+        },
+        {
+          "id": "b7c2ba4c-cda5-4ee1-988d-3b34ba094d7e",
+          "comment": "",
+          "command": "click",
+          "target": "name=x",
+          "targets": [
+            [
+              "name=x",
+              "name"
+            ],
+            [
+              "css=table:nth-child(4) input:nth-child(1)",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@name='x']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//div[@id='content']/div[3]/div[2]/form/table[4]/tbody/tr/td/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//table[4]/tbody/tr/td/input",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "f555487d-3a5d-4ab5-a724-84a91f5bee6e",
+          "comment": "",
+          "command": "click",
+          "target": "css=.rightresult > div",
+          "targets": [
+            [
+              "css=.rightresult > div",
+              "css:finder"
+            ],
+            [
+              "xpath=//div[@id='content']/div[3]/div",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div/div[3]/div",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "0928daf2-9ed7-4264-bb0b-281463b72043",
+          "comment": "",
+          "command": "assertText",
+          "target": "css=font",
+          "targets": [
+            [
+              "css=font",
+              "css:finder"
+            ],
+            [
+              "xpath=//div[@id='content']/div[3]/div/div/font",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//font",
+              "xpath:position"
+            ],
+            [
+              "xpath=//font[contains(.,'Please provide a positive weight.')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": "Please provide a positive weight."
+        },
+        {
+          "id": "8c030866-3e93-4661-8d17-3f62ea0a3cf8",
+          "comment": "",
+          "command": "close",
+          "target": "",
+          "targets": [],
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "1149147d-4cd8-412e-b046-75a104de4ac1",
+      "name": "04-error-zero-weight",
+      "commands": [
+        {
+          "id": "60db44c0-4185-466a-adba-23cf4a2d20d8",
+          "comment": "",
+          "command": "open",
+          "target": "https://www.calculator.net/body-fat-calculator.html",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "5d9459d1-3c9d-4dc0-b475-578abf708463",
+          "comment": "",
+          "command": "setWindowSize",
+          "target": "0x0",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "db8494ac-66bd-4a87-9f28-781fafae4745",
+          "comment": "",
+          "command": "click",
+          "target": "css=#metricheightweight tr:nth-child(1)",
+          "targets": [
+            [
+              "css=#metricheightweight tr:nth-child(1)",
+              "css:finder"
+            ],
+            [
+              "xpath=//table[@id='metricheightweight']/tbody/tr",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//table[3]/tbody/tr",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "f35f430a-7b8f-4442-ae34-806c3692dc0b",
+          "comment": "",
+          "command": "type",
+          "target": "name=cweightkgs",
+          "targets": [
+            [
+              "name=cweightkgs",
+              "name"
+            ],
+            [
+              "css=tr:nth-child(1) .inuick",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@name='cweightkgs']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//table[@id='metricheightweight']/tbody/tr/td[2]/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//table[3]/tbody/tr/td[2]/input",
+              "xpath:position"
+            ]
+          ],
+          "value": "0"
+        },
+        {
+          "id": "54add31b-f6d7-483a-9764-5d0def2cf640",
+          "comment": "",
+          "command": "click",
+          "target": "name=x",
+          "targets": [
+            [
+              "name=x",
+              "name"
+            ],
+            [
+              "css=table:nth-child(4) input:nth-child(1)",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@name='x']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//div[@id='content']/div[3]/div[2]/form/table[4]/tbody/tr/td/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//table[4]/tbody/tr/td/input",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "b60d42bb-b902-42e1-81ef-1f5e9d3b4291",
+          "comment": "",
+          "command": "click",
+          "target": "css=.verybigtext",
+          "targets": [
+            [
+              "css=.verybigtext",
+              "css:finder"
+            ],
+            [
+              "xpath=//div[@id='content']/div[3]/p",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//p",
+              "xpath:position"
+            ],
+            [
+              "xpath=//p[contains(.,'Body Fat: 15.7%')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "e8bc2f36-2b3b-40bb-829f-3a7cfb8570df",
+          "comment": "",
+          "command": "assertText",
+          "target": "css=font > b",
+          "targets": [
+            [
+              "css=font > b",
+              "css:finder"
+            ],
+            [
+              "xpath=//div[@id='content']/div[3]/p/font/b",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//b",
+              "xpath:position"
+            ],
+            [
+              "xpath=//b[contains(.,'Body Fat: 15.7%')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": "Body Fat: 15.7%"
+        },
+        {
+          "id": "970db906-9333-41ea-9f22-d1cd07a665eb",
+          "comment": "",
+          "command": "close",
+          "target": "",
+          "targets": [],
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "79b2ba01-c0f3-4caa-a372-ac1ca5a00984",
+      "name": "06-invalid-datatypes-metric",
+      "commands": [
+        {
+          "id": "8ac8d8bb-c25e-4b6a-ac45-5b35ec703cce",
+          "comment": "",
+          "command": "open",
+          "target": "https://www.calculator.net/body-fat-calculator.html",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "5241876d-2059-4fa5-9045-d95e93656f6b",
+          "comment": "",
+          "command": "setWindowSize",
+          "target": "0x0",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "56e125d4-0623-4bc0-8e39-8fce13e38109",
+          "comment": "",
+          "command": "click",
+          "target": "id=content",
+          "targets": [
+            [
+              "id=content",
+              "id"
+            ],
+            [
+              "css=#content",
+              "css:finder"
+            ],
+            [
+              "xpath=//div[@id='content']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//div[@id='contentout']/div",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div[3]/div",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "671f7584-776e-453a-b8a3-90ca2942e031",
+          "comment": "",
+          "command": "type",
+          "target": "name=cage",
+          "targets": [
+            [
+              "name=cage",
+              "name"
+            ],
+            [
+              "css=tbody:nth-child(2) .inlongest",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@name='cage']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//table[@id='calinputtable']/tbody/tr[2]/td[2]/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//td[2]/input",
+              "xpath:position"
+            ]
+          ],
+          "value": "s"
+        },
+        {
+          "id": "8813fadb-ad0b-495a-a411-9b5563430699",
+          "comment": "",
+          "command": "click",
+          "target": "id=metricheightweight",
+          "targets": [
+            [
+              "id=metricheightweight",
+              "id"
+            ],
+            [
+              "css=#metricheightweight",
+              "css:finder"
+            ],
+            [
+              "xpath=//table[@id='metricheightweight']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//div[@id='content']/div[3]/div[2]/form/table[3]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//table[3]",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "08507074-886f-4ca1-bae5-30ac0904c1eb",
+          "comment": "",
+          "command": "click",
+          "target": "name=x",
+          "targets": [
+            [
+              "name=x",
+              "name"
+            ],
+            [
+              "css=table:nth-child(4) input:nth-child(1)",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@name='x']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//div[@id='content']/div[3]/div[2]/form/table[4]/tbody/tr/td/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//table[4]/tbody/tr/td/input",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "28220114-c1a8-41e7-8366-ab3313cb2a6b",
+          "comment": "",
+          "command": "click",
+          "target": "css=#metricheightweight tr:nth-child(1)",
+          "targets": [
+            [
+              "css=#metricheightweight tr:nth-child(1)",
+              "css:finder"
+            ],
+            [
+              "xpath=//table[@id='metricheightweight']/tbody/tr",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//table[3]/tbody/tr",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "4579d6bf-c734-40d7-97cb-33e0b965f451",
+          "comment": "",
+          "command": "type",
+          "target": "name=cweightkgs",
+          "targets": [
+            [
+              "name=cweightkgs",
+              "name"
+            ],
+            [
+              "css=tr:nth-child(1) .inuick",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@name='cweightkgs']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//table[@id='metricheightweight']/tbody/tr/td[2]/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//table[3]/tbody/tr/td[2]/input",
+              "xpath:position"
+            ]
+          ],
+          "value": "xx"
+        },
+        {
+          "id": "383d3066-b861-4c98-9da4-159a0303b09c",
+          "comment": "",
+          "command": "click",
+          "target": "name=x",
+          "targets": [
+            [
+              "name=x",
+              "name"
+            ],
+            [
+              "css=table:nth-child(4) input:nth-child(1)",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@name='x']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//div[@id='content']/div[2]/div[2]/form/table[4]/tbody/tr/td/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//table[4]/tbody/tr/td/input",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "6a428830-ac88-4b36-b2f0-64b70e223f57",
+          "comment": "",
+          "command": "click",
+          "target": "css=#metricheightweight tr:nth-child(2)",
+          "targets": [
+            [
+              "css=#metricheightweight tr:nth-child(2)",
+              "css:finder"
+            ],
+            [
+              "xpath=//table[@id='metricheightweight']/tbody/tr[2]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//table[3]/tbody/tr[2]",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "ddeb453b-357b-4021-ac32-8c59595a568f",
+          "comment": "",
+          "command": "type",
+          "target": "id=cheightmeter",
+          "targets": [
+            [
+              "id=cheightmeter",
+              "id"
+            ],
+            [
+              "name=cheightmeter",
+              "name"
+            ],
+            [
+              "css=#cheightmeter",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@id='cheightmeter']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//table[@id='metricheightweight']/tbody/tr[2]/td[2]/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//table[3]/tbody/tr[2]/td[2]/input",
+              "xpath:position"
+            ]
+          ],
+          "value": "[1]"
+        },
+        {
+          "id": "0a00e027-4279-499b-b717-3a0fa283d636",
+          "comment": "",
+          "command": "click",
+          "target": "css=#metricheightweight tr:nth-child(3)",
+          "targets": [
+            [
+              "css=#metricheightweight tr:nth-child(3)",
+              "css:finder"
+            ],
+            [
+              "xpath=//table[@id='metricheightweight']/tbody/tr[3]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//table[3]/tbody/tr[3]",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "4e80a0a3-5a77-4e69-b8b2-65e5f8369c7d",
+          "comment": "",
+          "command": "type",
+          "target": "id=cneckmeter",
+          "targets": [
+            [
+              "id=cneckmeter",
+              "id"
+            ],
+            [
+              "name=cneckmeter",
+              "name"
+            ],
+            [
+              "css=#cneckmeter",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@id='cneckmeter']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//table[@id='metricheightweight']/tbody/tr[3]/td[2]/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//tr[3]/td[2]/input",
+              "xpath:position"
+            ]
+          ],
+          "value": "true"
+        },
+        {
+          "id": "8bc16b57-ad7e-49cc-bb94-c25da34d3687",
+          "comment": "",
+          "command": "click",
+          "target": "id=cwaistmeter",
+          "targets": [
+            [
+              "id=cwaistmeter",
+              "id"
+            ],
+            [
+              "name=cwaistmeter",
+              "name"
+            ],
+            [
+              "css=#cwaistmeter",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@id='cwaistmeter']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//table[@id='metricheightweight']/tbody/tr[4]/td[2]/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//tr[4]/td[2]/input",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "0ff50747-9f27-4269-b5e1-f8ce207f8c33",
+          "comment": "",
+          "command": "click",
+          "target": "id=cwaistmeter",
+          "targets": [
+            [
+              "id=cwaistmeter",
+              "id"
+            ],
+            [
+              "name=cwaistmeter",
+              "name"
+            ],
+            [
+              "css=#cwaistmeter",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@id='cwaistmeter']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//table[@id='metricheightweight']/tbody/tr[4]/td[2]/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//tr[4]/td[2]/input",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "4a8f2eb9-c6e2-431b-bce9-6dd54f04ff02",
+          "comment": "",
+          "command": "doubleClick",
+          "target": "id=cwaistmeter",
+          "targets": [
+            [
+              "id=cwaistmeter",
+              "id"
+            ],
+            [
+              "name=cwaistmeter",
+              "name"
+            ],
+            [
+              "css=#cwaistmeter",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@id='cwaistmeter']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//table[@id='metricheightweight']/tbody/tr[4]/td[2]/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//tr[4]/td[2]/input",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "0dbbc1f0-b40c-40aa-a4af-c7a12882680c",
+          "comment": "",
+          "command": "click",
+          "target": "id=cwaistmeter",
+          "targets": [
+            [
+              "id=cwaistmeter",
+              "id"
+            ],
+            [
+              "name=cwaistmeter",
+              "name"
+            ],
+            [
+              "css=#cwaistmeter",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@id='cwaistmeter']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//table[@id='metricheightweight']/tbody/tr[4]/td[2]/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//tr[4]/td[2]/input",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "6dab32c1-35f3-4931-ada8-316f12cfc52f",
+          "comment": "",
+          "command": "type",
+          "target": "id=cwaistmeter",
+          "targets": [
+            [
+              "id=cwaistmeter",
+              "id"
+            ],
+            [
+              "name=cwaistmeter",
+              "name"
+            ],
+            [
+              "css=#cwaistmeter",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@id='cwaistmeter']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//table[@id='metricheightweight']/tbody/tr[4]/td[2]/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//tr[4]/td[2]/input",
+              "xpath:position"
+            ]
+          ],
+          "value": "x"
+        },
+        {
+          "id": "009c030c-1b5b-4d46-abc6-d7f3e9205801",
+          "comment": "",
+          "command": "click",
+          "target": "name=x",
+          "targets": [
+            [
+              "name=x",
+              "name"
+            ],
+            [
+              "css=table:nth-child(4) input:nth-child(1)",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@name='x']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//div[@id='content']/div[2]/div[2]/form/table[4]/tbody/tr/td/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//table[4]/tbody/tr/td/input",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "ec73a6dc-ec61-416c-9819-b7050745cec1",
+          "comment": "",
+          "command": "click",
+          "target": "css=#metricheightweight tr:nth-child(2)",
+          "targets": [
+            [
+              "css=#metricheightweight tr:nth-child(2)",
+              "css:finder"
+            ],
+            [
+              "xpath=//table[@id='metricheightweight']/tbody/tr[2]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//table[3]/tbody/tr[2]",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "9204b647-d56a-42f5-93e8-3fdee282c6f0",
+          "comment": "",
+          "command": "type",
+          "target": "id=cheightmeter",
+          "targets": [
+            [
+              "id=cheightmeter",
+              "id"
+            ],
+            [
+              "name=cheightmeter",
+              "name"
+            ],
+            [
+              "css=#cheightmeter",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@id='cheightmeter']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//table[@id='metricheightweight']/tbody/tr[2]/td[2]/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//table[3]/tbody/tr[2]/td[2]/input",
+              "xpath:position"
+            ]
+          ],
+          "value": "z"
+        },
+        {
+          "id": "557b40dd-97a4-4c33-a053-19eb576f2aea",
+          "comment": "",
+          "command": "sendKeys",
+          "target": "id=cheightmeter",
+          "targets": [
+            [
+              "id=cheightmeter",
+              "id"
+            ],
+            [
+              "name=cheightmeter",
+              "name"
+            ],
+            [
+              "css=#cheightmeter",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@id='cheightmeter']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//table[@id='metricheightweight']/tbody/tr[2]/td[2]/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//table[3]/tbody/tr[2]/td[2]/input",
+              "xpath:position"
+            ]
+          ],
+          "value": "${KEY_ENTER}"
+        },
+        {
+          "id": "d230c95d-d8ae-40e5-b123-c7b237560789",
+          "comment": "",
+          "command": "click",
+          "target": "css=#metricheightweight tr:nth-child(2)",
+          "targets": [
+            [
+              "css=#metricheightweight tr:nth-child(2)",
+              "css:finder"
+            ],
+            [
+              "xpath=//table[@id='metricheightweight']/tbody/tr[2]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//table[3]/tbody/tr[2]",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "41b9ad47-b791-4d7b-b08c-e63eac4cc3b4",
+          "comment": "",
+          "command": "type",
+          "target": "id=cheightmeter",
+          "targets": [
+            [
+              "id=cheightmeter",
+              "id"
+            ],
+            [
+              "name=cheightmeter",
+              "name"
+            ],
+            [
+              "css=#cheightmeter",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@id='cheightmeter']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//table[@id='metricheightweight']/tbody/tr[2]/td[2]/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//table[3]/tbody/tr[2]/td[2]/input",
+              "xpath:position"
+            ]
+          ],
+          "value": "-1"
+        },
+        {
+          "id": "f0c29773-1596-4fb4-910a-f4fb728830de",
+          "comment": "",
+          "command": "sendKeys",
+          "target": "id=cheightmeter",
+          "targets": [
+            [
+              "id=cheightmeter",
+              "id"
+            ],
+            [
+              "name=cheightmeter",
+              "name"
+            ],
+            [
+              "css=#cheightmeter",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@id='cheightmeter']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//table[@id='metricheightweight']/tbody/tr[2]/td[2]/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//table[3]/tbody/tr[2]/td[2]/input",
+              "xpath:position"
+            ]
+          ],
+          "value": "${KEY_ENTER}"
+        },
+        {
+          "id": "c47b7675-2f1a-44ee-9547-2c9a378ede63",
+          "comment": "",
+          "command": "click",
+          "target": "css=#metricheightweight tr:nth-child(2)",
+          "targets": [
+            [
+              "css=#metricheightweight tr:nth-child(2)",
+              "css:finder"
+            ],
+            [
+              "xpath=//table[@id='metricheightweight']/tbody/tr[2]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//table[3]/tbody/tr[2]",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "021b0bed-8041-4b22-bf19-2784585f5aac",
+          "comment": "",
+          "command": "sendKeys",
+          "target": "id=cheightmeter",
+          "targets": [
+            [
+              "id=cheightmeter",
+              "id"
+            ],
+            [
+              "name=cheightmeter",
+              "name"
+            ],
+            [
+              "css=#cheightmeter",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@id='cheightmeter']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//table[@id='metricheightweight']/tbody/tr[2]/td[2]/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//table[3]/tbody/tr[2]/td[2]/input",
+              "xpath:position"
+            ]
+          ],
+          "value": "${KEY_ENTER}"
+        },
+        {
+          "id": "8318d0a9-08bf-4d86-9f14-8838ae457e49",
+          "comment": "",
+          "command": "click",
+          "target": "id=cheightmeter",
+          "targets": [
+            [
+              "id=cheightmeter",
+              "id"
+            ],
+            [
+              "name=cheightmeter",
+              "name"
+            ],
+            [
+              "css=#cheightmeter",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@id='cheightmeter']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//table[@id='metricheightweight']/tbody/tr[2]/td[2]/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//table[3]/tbody/tr[2]/td[2]/input",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "14d51066-2adf-4a7d-93bd-9377ff7df04d",
+          "comment": "",
+          "command": "type",
+          "target": "id=cheightmeter",
+          "targets": [
+            [
+              "id=cheightmeter",
+              "id"
+            ],
+            [
+              "name=cheightmeter",
+              "name"
+            ],
+            [
+              "css=#cheightmeter",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@id='cheightmeter']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//table[@id='metricheightweight']/tbody/tr[2]/td[2]/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//table[3]/tbody/tr[2]/td[2]/input",
+              "xpath:position"
+            ]
+          ],
+          "value": "a"
+        },
+        {
+          "id": "eea00623-8a4a-4207-be24-d3db81d12a7b",
+          "comment": "",
+          "command": "sendKeys",
+          "target": "id=cheightmeter",
+          "targets": [
+            [
+              "id=cheightmeter",
+              "id"
+            ],
+            [
+              "name=cheightmeter",
+              "name"
+            ],
+            [
+              "css=#cheightmeter",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@id='cheightmeter']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//table[@id='metricheightweight']/tbody/tr[2]/td[2]/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//table[3]/tbody/tr[2]/td[2]/input",
+              "xpath:position"
+            ]
+          ],
+          "value": "${KEY_ENTER}"
+        },
+        {
+          "id": "1f5e265e-b4a8-416a-98c3-b22c94ecc44a",
+          "comment": "",
+          "command": "click",
+          "target": "css=#metricheightweight tr:nth-child(3)",
+          "targets": [
+            [
+              "css=#metricheightweight tr:nth-child(3)",
+              "css:finder"
+            ],
+            [
+              "xpath=//table[@id='metricheightweight']/tbody/tr[3]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//table[3]/tbody/tr[3]",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "d80bb40c-a9b0-468d-ac0d-256a582f8942",
+          "comment": "",
+          "command": "type",
+          "target": "id=cneckmeter",
+          "targets": [
+            [
+              "id=cneckmeter",
+              "id"
+            ],
+            [
+              "name=cneckmeter",
+              "name"
+            ],
+            [
+              "css=#cneckmeter",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@id='cneckmeter']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//table[@id='metricheightweight']/tbody/tr[3]/td[2]/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//tr[3]/td[2]/input",
+              "xpath:position"
+            ]
+          ],
+          "value": "[1]"
+        },
+        {
+          "id": "a9505cb1-6f61-48ce-81e0-ce95449c2086",
+          "comment": "",
+          "command": "click",
+          "target": "name=x",
+          "targets": [
+            [
+              "name=x",
+              "name"
+            ],
+            [
+              "css=table:nth-child(4) input:nth-child(1)",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@name='x']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//div[@id='content']/div[2]/div[2]/form/table[4]/tbody/tr/td/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//table[4]/tbody/tr/td/input",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "1729a660-3678-4a86-9551-3e8d1a0f0bf5",
+          "comment": "",
+          "command": "click",
+          "target": "css=#metricheightweight tr:nth-child(3)",
+          "targets": [
+            [
+              "css=#metricheightweight tr:nth-child(3)",
+              "css:finder"
+            ],
+            [
+              "xpath=//table[@id='metricheightweight']/tbody/tr[3]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//table[3]/tbody/tr[3]",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "c71b0448-53ce-4343-85b1-fbcee2273776",
+          "comment": "",
+          "command": "click",
+          "target": "name=x",
+          "targets": [
+            [
+              "name=x",
+              "name"
+            ],
+            [
+              "css=table:nth-child(4) input:nth-child(1)",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@name='x']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//div[@id='content']/div[2]/div[2]/form/table[4]/tbody/tr/td/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//table[4]/tbody/tr/td/input",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "160173ae-9f12-4b93-9d3b-a28213f51c05",
+          "comment": "",
+          "command": "click",
+          "target": "css=.rightresult > div",
+          "targets": [
+            [
+              "css=.rightresult > div",
+              "css:finder"
+            ],
+            [
+              "xpath=//div[@id='content']/div[3]/div",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div/div[3]/div",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "4bf9661f-4990-4482-b499-0b27ae36e921",
+          "comment": "",
+          "command": "assertText",
+          "target": "css=div:nth-child(2) > font",
+          "targets": [
+            [
+              "css=div:nth-child(2) > font",
+              "css:finder"
+            ],
+            [
+              "xpath=//div[@id='content']/div[3]/div/div[2]/font",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div[2]/font",
+              "xpath:position"
+            ],
+            [
+              "xpath=//font[contains(.,'Please provide a positive weight.')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": "Please provide a positive weight."
+        },
+        {
+          "id": "e7097d21-0607-4833-ba4c-b97767dd8b98",
+          "comment": "",
+          "command": "close",
+          "target": "",
+          "targets": [],
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "227c3da8-c848-469e-b7d0-218b09287896",
+      "name": "05-invalid-negative-metric",
+      "commands": [
+        {
+          "id": "47f0d279-3ec3-45ed-9639-07b54723e8e2",
+          "comment": "",
+          "command": "open",
+          "target": "https://www.calculator.net/body-fat-calculator.html",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "8d90aaa6-c727-4466-ac69-86e2da6914cd",
+          "comment": "",
+          "command": "setWindowSize",
+          "target": "0x0",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "b67bc758-ea04-46c0-b13c-eb2c0fcef350",
+          "comment": "",
+          "command": "click",
+          "target": "css=tbody:nth-child(2) > tr:nth-child(2)",
+          "targets": [
+            [
+              "css=tbody:nth-child(2) > tr:nth-child(2)",
+              "css:finder"
+            ],
+            [
+              "xpath=//table[@id='calinputtable']/tbody/tr[2]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//tr[2]",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "d11d8568-765e-49b6-a9e5-5c8c55fde0e8",
+          "comment": "",
+          "command": "click",
+          "target": "css=.cbcontainer:nth-child(2) > .rbmark",
+          "targets": [
+            [
+              "css=.cbcontainer:nth-child(2) > .rbmark",
+              "css:finder"
+            ],
+            [
+              "xpath=//table[@id='calinputtable']/tbody/tr/td[2]/label[2]/span",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//label[2]/span",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "932cf19a-a445-4be0-b1df-fff6f231f56a",
+          "comment": "",
+          "command": "type",
+          "target": "name=cage",
+          "targets": [
+            [
+              "name=cage",
+              "name"
+            ],
+            [
+              "css=tbody:nth-child(2) .inlongest",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@name='cage']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//table[@id='calinputtable']/tbody/tr[2]/td[2]/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//td[2]/input",
+              "xpath:position"
+            ]
+          ],
+          "value": "-1"
+        },
+        {
+          "id": "69b4db7a-f05b-4384-9717-67f59478a176",
+          "comment": "",
+          "command": "click",
+          "target": "css=#metricheightweight tr:nth-child(1)",
+          "targets": [
+            [
+              "css=#metricheightweight tr:nth-child(1)",
+              "css:finder"
+            ],
+            [
+              "xpath=//table[@id='metricheightweight']/tbody/tr",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//table[3]/tbody/tr",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "ea570fcd-583f-48bb-a60a-42bbec0f132e",
+          "comment": "",
+          "command": "type",
+          "target": "name=cweightkgs",
+          "targets": [
+            [
+              "name=cweightkgs",
+              "name"
+            ],
+            [
+              "css=tr:nth-child(1) .inuick",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@name='cweightkgs']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//table[@id='metricheightweight']/tbody/tr/td[2]/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//table[3]/tbody/tr/td[2]/input",
+              "xpath:position"
+            ]
+          ],
+          "value": "-1"
+        },
+        {
+          "id": "c5819989-d422-4589-9bc5-f30868c382bc",
+          "comment": "",
+          "command": "click",
+          "target": "css=.panel2",
+          "targets": [
+            [
+              "css=.panel2",
+              "css:finder"
+            ],
+            [
+              "xpath=//div[@id='content']/div[3]/div[2]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div[3]/div[2]",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "e34fd0a7-f6f3-4770-8656-f90fc1a4731a",
+          "comment": "",
+          "command": "type",
+          "target": "id=cheightmeter",
+          "targets": [
+            [
+              "id=cheightmeter",
+              "id"
+            ],
+            [
+              "name=cheightmeter",
+              "name"
+            ],
+            [
+              "css=#cheightmeter",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@id='cheightmeter']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//table[@id='metricheightweight']/tbody/tr[2]/td[2]/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//table[3]/tbody/tr[2]/td[2]/input",
+              "xpath:position"
+            ]
+          ],
+          "value": "-1"
+        },
+        {
+          "id": "08ba873c-3154-417f-a5f3-5b0f651470ed",
+          "comment": "",
+          "command": "click",
+          "target": "css=#metricheightweight tr:nth-child(3)",
+          "targets": [
+            [
+              "css=#metricheightweight tr:nth-child(3)",
+              "css:finder"
+            ],
+            [
+              "xpath=//table[@id='metricheightweight']/tbody/tr[3]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//table[3]/tbody/tr[3]",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "f7d1de19-9b2b-4792-9459-b27e2168099c",
+          "comment": "",
+          "command": "type",
+          "target": "id=cneckmeter",
+          "targets": [
+            [
+              "id=cneckmeter",
+              "id"
+            ],
+            [
+              "name=cneckmeter",
+              "name"
+            ],
+            [
+              "css=#cneckmeter",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@id='cneckmeter']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//table[@id='metricheightweight']/tbody/tr[3]/td[2]/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//tr[3]/td[2]/input",
+              "xpath:position"
+            ]
+          ],
+          "value": "-1"
+        },
+        {
+          "id": "71aa1023-f929-4d78-bd72-acdcefa99793",
+          "comment": "",
+          "command": "click",
+          "target": "css=#metricheightweight tr:nth-child(4)",
+          "targets": [
+            [
+              "css=#metricheightweight tr:nth-child(4)",
+              "css:finder"
+            ],
+            [
+              "xpath=//table[@id='metricheightweight']/tbody/tr[4]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//table[3]/tbody/tr[4]",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "d91ab7bb-e856-4d4f-9cb6-48d7b9314159",
+          "comment": "",
+          "command": "type",
+          "target": "id=cwaistmeter",
+          "targets": [
+            [
+              "id=cwaistmeter",
+              "id"
+            ],
+            [
+              "name=cwaistmeter",
+              "name"
+            ],
+            [
+              "css=#cwaistmeter",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@id='cwaistmeter']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//table[@id='metricheightweight']/tbody/tr[4]/td[2]/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//tr[4]/td[2]/input",
+              "xpath:position"
+            ]
+          ],
+          "value": "-1"
+        },
+        {
+          "id": "ab77bd94-8bae-4e82-a2fa-41c4c50c5be8",
+          "comment": "",
+          "command": "click",
+          "target": "css=#metricheightweight tr:nth-child(5)",
+          "targets": [
+            [
+              "css=#metricheightweight tr:nth-child(5)",
+              "css:finder"
+            ],
+            [
+              "xpath=//table[@id='metricheightweight']/tbody/tr[5]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//table[3]/tbody/tr[5]",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "16fce330-6a61-4f86-9cd0-caaf1fec90a0",
+          "comment": "",
+          "command": "type",
+          "target": "id=chipmeter",
+          "targets": [
+            [
+              "id=chipmeter",
+              "id"
+            ],
+            [
+              "name=chipmeter",
+              "name"
+            ],
+            [
+              "css=#chipmeter",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@id='chipmeter']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//span[@id='metrichiptable']/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//span/input",
+              "xpath:position"
+            ]
+          ],
+          "value": "-1"
+        },
+        {
+          "id": "72d129a8-0dc4-4263-b104-d50606e146e3",
+          "comment": "",
+          "command": "click",
+          "target": "name=x",
+          "targets": [
+            [
+              "name=x",
+              "name"
+            ],
+            [
+              "css=table:nth-child(4) input:nth-child(1)",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@name='x']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//div[@id='content']/div[3]/div[2]/form/table[4]/tbody/tr/td/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//table[4]/tbody/tr/td/input",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "9aa4f895-2f63-4e8b-9369-f78e12d0afd6",
+          "comment": "",
+          "command": "click",
+          "target": "css=.rightresult > div",
+          "targets": [
+            [
+              "css=.rightresult > div",
+              "css:finder"
+            ],
+            [
+              "xpath=//div[@id='content']/div[3]/div",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div/div[3]/div",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "c7c7c2f3-2236-4bc1-9282-85af34be4a5b",
+          "comment": "",
+          "command": "click",
+          "target": "css=.rightresult > div",
+          "targets": [
+            [
+              "css=.rightresult > div",
+              "css:finder"
+            ],
+            [
+              "xpath=//div[@id='content']/div[3]/div",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div/div[3]/div",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "4b60224b-84cd-46cb-89a4-4326e9934c51",
+          "comment": "",
+          "command": "assertText",
+          "target": "css=div:nth-child(5) > font",
+          "targets": [
+            [
+              "css=div:nth-child(5) > font",
+              "css:finder"
+            ],
+            [
+              "xpath=//div[@id='content']/div[3]/div/div[5]/font",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div[5]/font",
+              "xpath:position"
+            ],
+            [
+              "xpath=//font[contains(.,'Waist need to be numeric.')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": "Waist need to be numeric."
+        },
+        {
+          "id": "28c99612-a0ef-4758-891c-a09334655a28",
+          "comment": "",
+          "command": "close",
+          "target": "",
+          "targets": [],
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "fa69bf67-16d9-4088-b515-6fa5c83a0c5e",
+      "name": "07-valid-emtpy-inches",
+      "commands": [
+        {
+          "id": "fd6fb0f5-8299-4525-b815-108cfb98ed93",
+          "comment": "",
+          "command": "open",
+          "target": "https://www.calculator.net/body-fat-calculator.html",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "735b1d10-e3e8-4c05-bf30-21da5d272334",
+          "comment": "",
+          "command": "setWindowSize",
+          "target": "0x0",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "f59e66a1-bd60-4560-95f9-e1b3e4a928f2",
+          "comment": "",
+          "command": "click",
+          "target": "linkText=US Units",
+          "targets": [
+            [
+              "linkText=US Units",
+              "linkText"
+            ],
+            [
+              "css=li:nth-child(1) > a",
+              "css:finder"
+            ],
+            [
+              "xpath=//a[contains(text(),'US Units')]",
+              "xpath:link"
+            ],
+            [
+              "xpath=//a[@onclick=\"return popMenu('standard',1);\"]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//div[@id='topmenu']/ul/li/a",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//a[contains(@href, '#')]",
+              "xpath:href"
+            ],
+            [
+              "xpath=//li/a",
+              "xpath:position"
+            ],
+            [
+              "xpath=//a[contains(.,'US Units')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "20241eb4-d1c5-4e36-ae2b-314d64ff65c3",
+          "comment": "",
+          "command": "click",
+          "target": "css=tr:nth-child(2) tr",
+          "targets": [
+            [
+              "css=tr:nth-child(2) tr",
+              "css:finder"
+            ],
+            [
+              "xpath=//table[@id='standardheightweight']/tbody/tr[2]/td[2]/table/tbody/tr",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//td[2]/table/tbody/tr",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "53b21857-5358-4792-a5de-162e1acdb384",
+          "comment": "",
+          "command": "type",
+          "target": "id=cheightinch",
+          "targets": [
+            [
+              "id=cheightinch",
+              "id"
+            ],
+            [
+              "name=cheightinch",
+              "name"
+            ],
+            [
+              "css=#cheightinch",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@id='cheightinch']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//table[@id='standardheightweight']/tbody/tr[2]/td[2]/table/tbody/tr/td[3]/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//td[3]/input",
+              "xpath:position"
+            ]
+          ],
+          "value": "0"
+        },
+        {
+          "id": "5b71c7c0-0956-4016-8294-0ed230a0f96d",
+          "comment": "",
+          "command": "click",
+          "target": "name=x",
+          "targets": [
+            [
+              "name=x",
+              "name"
+            ],
+            [
+              "css=table:nth-child(4) input:nth-child(1)",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@name='x']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//div[@id='content']/div[3]/div[2]/form/table[4]/tbody/tr/td/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//table[4]/tbody/tr/td/input",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "bd2036d3-d221-4f2f-a5eb-02d14974ca4a",
+          "comment": "",
+          "command": "click",
+          "target": "css=#standardheightweight tr:nth-child(2)",
+          "targets": [
+            [
+              "css=#standardheightweight tr:nth-child(2)",
+              "css:finder"
+            ],
+            [
+              "xpath=//table[@id='standardheightweight']/tbody/tr[2]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//table[2]/tbody/tr[2]",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "5a228023-fcde-45d1-8adc-3755b5f10eba",
+          "comment": "",
+          "command": "type",
+          "target": "id=cheightfeet",
+          "targets": [
+            [
+              "id=cheightfeet",
+              "id"
+            ],
+            [
+              "name=cheightfeet",
+              "name"
+            ],
+            [
+              "css=#cheightfeet",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@id='cheightfeet']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//table[@id='standardheightweight']/tbody/tr[2]/td[2]/table/tbody/tr/td/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//td[2]/table/tbody/tr/td/input",
+              "xpath:position"
+            ]
+          ],
+          "value": "0"
+        },
+        {
+          "id": "9e1c40eb-5361-49d4-9c3e-e7414513afac",
+          "comment": "",
+          "command": "click",
+          "target": "name=x",
+          "targets": [
+            [
+              "name=x",
+              "name"
+            ],
+            [
+              "css=table:nth-child(4) input:nth-child(1)",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@name='x']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//div[@id='content']/div[2]/div[2]/form/table[4]/tbody/tr/td/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//table[4]/tbody/tr/td/input",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "323252fd-ab0b-4d17-aea1-c99094507ef7",
+          "comment": "",
+          "command": "click",
+          "target": "css=#standardheightweight tr:nth-child(2)",
+          "targets": [
+            [
+              "css=#standardheightweight tr:nth-child(2)",
+              "css:finder"
+            ],
+            [
+              "xpath=//table[@id='standardheightweight']/tbody/tr[2]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//table[2]/tbody/tr[2]",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "030a690c-0d05-4965-ab11-835e84c8b95c",
+          "comment": "",
+          "command": "type",
+          "target": "id=cheightfeet",
+          "targets": [
+            [
+              "id=cheightfeet",
+              "id"
+            ],
+            [
+              "name=cheightfeet",
+              "name"
+            ],
+            [
+              "css=#cheightfeet",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@id='cheightfeet']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//table[@id='standardheightweight']/tbody/tr[2]/td[2]/table/tbody/tr/td/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//td[2]/table/tbody/tr/td/input",
+              "xpath:position"
+            ]
+          ],
+          "value": "6"
+        },
+        {
+          "id": "b83f6882-56f7-4786-b8c6-78a02e7d4e82",
+          "comment": "",
+          "command": "click",
+          "target": "name=x",
+          "targets": [
+            [
+              "name=x",
+              "name"
+            ],
+            [
+              "css=table:nth-child(4) input:nth-child(1)",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@name='x']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//div[@id='content']/div[2]/div[2]/form/table[4]/tbody/tr/td/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//table[4]/tbody/tr/td/input",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "912b2b76-c1b1-443b-85b7-02395658c6c7",
+          "comment": "",
+          "command": "click",
+          "target": "css=tr:nth-child(3) tr",
+          "targets": [
+            [
+              "css=tr:nth-child(3) tr",
+              "css:finder"
+            ],
+            [
+              "xpath=//table[@id='standardheightweight']/tbody/tr[3]/td[2]/table/tbody/tr",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//tr[3]/td[2]/table/tbody/tr",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "61c572b5-defd-4c84-aead-f4de58214a5d",
+          "comment": "",
+          "command": "type",
+          "target": "id=cneckinch",
+          "targets": [
+            [
+              "id=cneckinch",
+              "id"
+            ],
+            [
+              "name=cneckinch",
+              "name"
+            ],
+            [
+              "css=#cneckinch",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@id='cneckinch']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//table[@id='standardheightweight']/tbody/tr[3]/td[2]/table/tbody/tr/td[3]/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//tr[3]/td[2]/table/tbody/tr/td[3]/input",
+              "xpath:position"
+            ]
+          ],
+          "value": "0"
+        },
+        {
+          "id": "d29a93b2-ac84-424c-bb6e-16175fffa081",
+          "comment": "",
+          "command": "click",
+          "target": "css=tr:nth-child(4) > td:nth-child(2) tr",
+          "targets": [
+            [
+              "css=tr:nth-child(4) > td:nth-child(2) tr",
+              "css:finder"
+            ],
+            [
+              "xpath=//table[@id='standardheightweight']/tbody/tr[4]/td[2]/table/tbody/tr",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//tr[4]/td[2]/table/tbody/tr",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "36501988-a74d-425f-abc9-fbaf082a1281",
+          "comment": "",
+          "command": "type",
+          "target": "id=cwaistinch",
+          "targets": [
+            [
+              "id=cwaistinch",
+              "id"
+            ],
+            [
+              "name=cwaistinch",
+              "name"
+            ],
+            [
+              "css=#cwaistinch",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@id='cwaistinch']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//table[@id='standardheightweight']/tbody/tr[4]/td[2]/table/tbody/tr/td[3]/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//tr[4]/td[2]/table/tbody/tr/td[3]/input",
+              "xpath:position"
+            ]
+          ],
+          "value": "0"
+        },
+        {
+          "id": "38ae3e6e-7d73-4721-9d43-9bb7693e1d73",
+          "comment": "",
+          "command": "click",
+          "target": "name=x",
+          "targets": [
+            [
+              "name=x",
+              "name"
+            ],
+            [
+              "css=table:nth-child(4) input:nth-child(1)",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@name='x']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//div[@id='content']/div[2]/div[2]/form/table[4]/tbody/tr/td/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//table[4]/tbody/tr/td/input",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "8f8aacec-ca2f-47a4-ac75-e6f6b6c2ee12",
+          "comment": "",
+          "command": "click",
+          "target": "css=font > b",
+          "targets": [
+            [
+              "css=font > b",
+              "css:finder"
+            ],
+            [
+              "xpath=//div[@id='content']/div[3]/p/font/b",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//b",
+              "xpath:position"
+            ],
+            [
+              "xpath=//b[contains(.,'Body Fat: 25.3%')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "229b981d-a7a1-4132-8144-97b68955b1c7",
+          "comment": "",
+          "command": "click",
+          "target": "css=.verybigtext",
+          "targets": [
+            [
+              "css=.verybigtext",
+              "css:finder"
+            ],
+            [
+              "xpath=//div[@id='content']/div[3]/p",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//p",
+              "xpath:position"
+            ],
+            [
+              "xpath=//p[contains(.,'Body Fat: 25.3%')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "b42ced03-b7ff-4eee-a34c-def5bffd8488",
+          "comment": "",
+          "command": "doubleClick",
+          "target": "css=.verybigtext",
+          "targets": [
+            [
+              "css=.verybigtext",
+              "css:finder"
+            ],
+            [
+              "xpath=//div[@id='content']/div[3]/p",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//p",
+              "xpath:position"
+            ],
+            [
+              "xpath=//p[contains(.,'Body Fat: 25.3%')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "69c4fa40-f9c6-4ab9-8973-63266d384c8c",
+          "comment": "",
+          "command": "assertText",
+          "target": "css=font > b",
+          "targets": [
+            [
+              "css=font > b",
+              "css:finder"
+            ],
+            [
+              "xpath=//div[@id='content']/div[3]/p/font/b",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//b",
+              "xpath:position"
+            ],
+            [
+              "xpath=//b[contains(.,'Body Fat: 25.3%')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": "Body Fat: 25.3%"
+        }
+      ]
+    },
+    {
+      "id": "4e7773e0-d8ca-44fe-a6c3-0529264d6a19",
+      "name": "08-Boundary-Max-Height",
+      "commands": [
+        {
+          "id": "e16c412f-2a34-4972-8afb-75bbf21a5256",
+          "comment": "",
+          "command": "open",
+          "target": "https://www.calculator.net/body-fat-calculator.html",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "8a47b7e1-b0fb-48c7-80b5-33a2ffd77592",
+          "comment": "",
+          "command": "setWindowSize",
+          "target": "0x0",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "3a88f1e1-12df-4ad0-8911-3fc3afdceab4",
+          "comment": "",
+          "command": "click",
+          "target": "linkText=US Units",
+          "targets": [
+            [
+              "linkText=US Units",
+              "linkText"
+            ],
+            [
+              "css=li:nth-child(1) > a",
+              "css:finder"
+            ],
+            [
+              "xpath=//a[contains(text(),'US Units')]",
+              "xpath:link"
+            ],
+            [
+              "xpath=//a[@onclick=\"return popMenu('standard',1);\"]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//div[@id='topmenu']/ul/li/a",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//a[contains(@href, '#')]",
+              "xpath:href"
+            ],
+            [
+              "xpath=//li/a",
+              "xpath:position"
+            ],
+            [
+              "xpath=//a[contains(.,'US Units')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "c1ae4ace-258d-4943-8374-0397e97a738a",
+          "comment": "",
+          "command": "click",
+          "target": "css=#standardheightweight tr:nth-child(2)",
+          "targets": [
+            [
+              "css=#standardheightweight tr:nth-child(2)",
+              "css:finder"
+            ],
+            [
+              "xpath=//table[@id='standardheightweight']/tbody/tr[2]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//table[2]/tbody/tr[2]",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "60d4e7b5-2b0e-43c9-94dc-258a502387b6",
+          "comment": "",
+          "command": "type",
+          "target": "id=cheightfeet",
+          "targets": [
+            [
+              "id=cheightfeet",
+              "id"
+            ],
+            [
+              "name=cheightfeet",
+              "name"
+            ],
+            [
+              "css=#cheightfeet",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@id='cheightfeet']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//table[@id='standardheightweight']/tbody/tr[2]/td[2]/table/tbody/tr/td/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//td[2]/table/tbody/tr/td/input",
+              "xpath:position"
+            ]
+          ],
+          "value": "99999"
+        },
+        {
+          "id": "73537929-54a6-4bdf-9685-4ab97826dd05",
+          "comment": "",
+          "command": "click",
+          "target": "name=x",
+          "targets": [
+            [
+              "name=x",
+              "name"
+            ],
+            [
+              "css=table:nth-child(4) input:nth-child(1)",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@name='x']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//div[@id='content']/div[3]/div[2]/form/table[4]/tbody/tr/td/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//table[4]/tbody/tr/td/input",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "0aae18e2-9fa0-4884-acae-e2334e757ee4",
+          "comment": "",
+          "command": "click",
+          "target": "css=font > b",
+          "targets": [
+            [
+              "css=font > b",
+              "css:finder"
+            ],
+            [
+              "xpath=//div[@id='content']/div[3]/p/font/b",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//b",
+              "xpath:position"
+            ],
+            [
+              "xpath=//b[contains(.,'Body Fat: 0.0%')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "53a24c06-8ef2-47d9-90fd-3a066b9b4d02",
+          "comment": "",
+          "command": "assertText",
+          "target": "css=font > b",
+          "targets": [
+            [
+              "css=font > b",
+              "css:finder"
+            ],
+            [
+              "xpath=//div[@id='content']/div[3]/p/font/b",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//b",
+              "xpath:position"
+            ],
+            [
+              "xpath=//b[contains(.,'Body Fat: 0.0%')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": "Body Fat: 0.0%"
+        },
+        {
+          "id": "b50be902-4ce9-4bcc-9f67-b04983143fdb",
+          "comment": "",
+          "command": "close",
+          "target": "",
+          "targets": [],
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "e06b47cf-e8f2-44c8-8a85-68a0a28142fa",
+      "name": "09-Boundary-Min-Height",
+      "commands": [
+        {
+          "id": "adeebaa6-8d0c-4f45-9917-b428f5d6b9e1",
+          "comment": "",
+          "command": "open",
+          "target": "https://www.calculator.net/body-fat-calculator.html",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "01be6c34-a094-4912-bc53-dd5f75189ba9",
+          "comment": "",
+          "command": "setWindowSize",
+          "target": "0x0",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "3454d59c-1dbf-4aee-ba0b-3bc0cb2b9336",
+          "comment": "",
+          "command": "click",
+          "target": "linkText=US Units",
+          "targets": [
+            [
+              "linkText=US Units",
+              "linkText"
+            ],
+            [
+              "css=li:nth-child(1) > a",
+              "css:finder"
+            ],
+            [
+              "xpath=//a[contains(text(),'US Units')]",
+              "xpath:link"
+            ],
+            [
+              "xpath=//a[@onclick=\"return popMenu('standard',1);\"]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//div[@id='topmenu']/ul/li/a",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//a[contains(@href, '#')]",
+              "xpath:href"
+            ],
+            [
+              "xpath=//li/a",
+              "xpath:position"
+            ],
+            [
+              "xpath=//a[contains(.,'US Units')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "03632503-df6a-46a2-bb45-a45fe58a5d72",
+          "comment": "",
+          "command": "click",
+          "target": "css=#standardheightweight tr:nth-child(2)",
+          "targets": [
+            [
+              "css=#standardheightweight tr:nth-child(2)",
+              "css:finder"
+            ],
+            [
+              "xpath=//table[@id='standardheightweight']/tbody/tr[2]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//table[2]/tbody/tr[2]",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "f2a3a4c2-d781-43f1-9d1b-e30eb924a20e",
+          "comment": "",
+          "command": "type",
+          "target": "id=cheightfeet",
+          "targets": [
+            [
+              "id=cheightfeet",
+              "id"
+            ],
+            [
+              "name=cheightfeet",
+              "name"
+            ],
+            [
+              "css=#cheightfeet",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@id='cheightfeet']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//table[@id='standardheightweight']/tbody/tr[2]/td[2]/table/tbody/tr/td/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//td[2]/table/tbody/tr/td/input",
+              "xpath:position"
+            ]
+          ],
+          "value": "0.00001"
+        },
+        {
+          "id": "29889011-c913-4a47-8499-7efb7fb6ac12",
+          "comment": "",
+          "command": "click",
+          "target": "name=x",
+          "targets": [
+            [
+              "name=x",
+              "name"
+            ],
+            [
+              "css=table:nth-child(4) input:nth-child(1)",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@name='x']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//div[@id='content']/div[3]/div[2]/form/table[4]/tbody/tr/td/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//table[4]/tbody/tr/td/input",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "f679d78f-4151-4791-89e2-3f7d88e5832c",
+          "comment": "",
+          "command": "click",
+          "target": "css=.verybigtext",
+          "targets": [
+            [
+              "css=.verybigtext",
+              "css:finder"
+            ],
+            [
+              "xpath=//div[@id='content']/div[3]/p",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//p",
+              "xpath:position"
+            ],
+            [
+              "xpath=//p[contains(.,'Body Fat: 78.8%')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "9c654c72-9b3b-47d0-88f4-38b018a22e22",
+          "comment": "",
+          "command": "assertText",
+          "target": "css=font > b",
+          "targets": [
+            [
+              "css=font > b",
+              "css:finder"
+            ],
+            [
+              "xpath=//div[@id='content']/div[3]/p/font/b",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//b",
+              "xpath:position"
+            ],
+            [
+              "xpath=//b[contains(.,'Body Fat: 78.8%')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": "Body Fat: 78.8%"
+        },
+        {
+          "id": "b3b3c197-d823-4338-ae45-31999d8cad71",
+          "comment": "",
+          "command": "close",
+          "target": "",
+          "targets": [],
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "7d9b5b42-4d64-4fa8-af1f-3fdf72b18d69",
+      "name": "10-other-units-area",
+      "commands": [
+        {
+          "id": "751c6b66-9cb7-414b-a20c-d27af8d60ef0",
+          "comment": "",
+          "command": "open",
+          "target": "https://www.calculator.net/body-fat-calculator.html",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "133d9e9b-fea5-4c86-8c31-eab4f54fec2a",
+          "comment": "",
+          "command": "setWindowSize",
+          "target": "0x0",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "e6f3af93-a520-4fc4-8d28-19294ae8442f",
+          "comment": "",
+          "command": "click",
+          "target": "linkText=Other Units",
+          "targets": [
+            [
+              "linkText=Other Units",
+              "linkText"
+            ],
+            [
+              "css=li:nth-child(3) > a",
+              "css:finder"
+            ],
+            [
+              "xpath=//a[contains(text(),'Other Units')]",
+              "xpath:link"
+            ],
+            [
+              "xpath=//a[@onclick=\"return popMenu('other');\"]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//div[@id='topmenu']/ul/li[3]/a",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=(//a[contains(@href, '#')])[3]",
+              "xpath:href"
+            ],
+            [
+              "xpath=//li[3]/a",
+              "xpath:position"
+            ],
+            [
+              "xpath=//a[contains(.,'Other Units')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "1f5eed2d-8256-4dde-845d-20d7eacabe8f",
+          "comment": "",
+          "command": "selectFrame",
+          "target": "index=0",
+          "targets": [
+            [
+              "index=0"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "90c1d952-8d40-457c-a594-9bbe5be2c689",
+          "comment": "",
+          "command": "select",
+          "target": "id=calFrom",
+          "targets": [],
+          "value": "label=Centimeter"
+        },
+        {
+          "id": "2d46cd2f-5f8f-4be9-aa93-e6b50fa97078",
+          "comment": "",
+          "command": "click",
+          "target": "css=#calFrom > option:nth-child(3)",
+          "targets": [
+            [
+              "css=#calFrom > option:nth-child(3)",
+              "css:finder"
+            ],
+            [
+              "xpath=//option[@value='3']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//select[@id='calFrom']/option[3]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//option[3]",
+              "xpath:position"
+            ],
+            [
+              "xpath=//option[contains(.,'Centimeter')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "7dbd12c2-b401-4441-b4ed-82fa70ca14a5",
+          "comment": "",
+          "command": "click",
+          "target": "name=fromVal",
+          "targets": [
+            [
+              "name=fromVal",
+              "name"
+            ],
+            [
+              "css=td:nth-child(1) > input",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@name='fromVal']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//input",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "ed0415bc-c4eb-4dcb-997b-b70b1a2d583f",
+          "comment": "",
+          "command": "click",
+          "target": "linkText=Temperature",
+          "targets": [
+            [
+              "linkText=Temperature",
+              "linkText"
+            ],
+            [
+              "css=li:nth-child(2) > a",
+              "css:finder"
+            ],
+            [
+              "xpath=//a[contains(text(),'Temperature')]",
+              "xpath:link"
+            ],
+            [
+              "xpath=//div[@id='topmenu']/ul/li[2]/a",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//a[contains(@href, 'javascript:popMenu(\"Temperature\");showSel(tA);')]",
+              "xpath:href"
+            ],
+            [
+              "xpath=//li[2]/a",
+              "xpath:position"
+            ],
+            [
+              "xpath=//a[contains(.,'Temperature')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "c37cc7da-cb6f-44f1-b747-d662691bc21b",
+          "comment": "",
+          "command": "click",
+          "target": "linkText=Area",
+          "targets": [
+            [
+              "linkText=Area",
+              "linkText"
+            ],
+            [
+              "css=li:nth-child(3) > a",
+              "css:finder"
+            ],
+            [
+              "xpath=//a[contains(text(),'Area')]",
+              "xpath:link"
+            ],
+            [
+              "xpath=//div[@id='topmenu']/ul/li[3]/a",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//a[contains(@href, 'javascript:popMenu(\"Area\");showSel(aA);')]",
+              "xpath:href"
+            ],
+            [
+              "xpath=//li[3]/a",
+              "xpath:position"
+            ],
+            [
+              "xpath=//a[contains(.,'Area')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "18feff56-53a8-45f9-89a6-c5d5fb92b4f8",
+          "comment": "",
+          "command": "click",
+          "target": "css=#calFrom > option:nth-child(1)",
+          "targets": [
+            [
+              "css=#calFrom > option:nth-child(1)",
+              "css:finder"
+            ],
+            [
+              "xpath=//option[@value='1']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//select[@id='calFrom']/option",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//option",
+              "xpath:position"
+            ],
+            [
+              "xpath=//option[contains(.,'Square Meter')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "a6f97b77-b869-4fac-89fe-559b080bfa54",
+          "comment": "",
+          "command": "click",
+          "target": "name=fromVal",
+          "targets": [
+            [
+              "name=fromVal",
+              "name"
+            ],
+            [
+              "css=td:nth-child(1) > input",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@name='fromVal']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//input",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "a0628d95-2be2-4577-b84a-39d4bf60cd1e",
+          "comment": "",
+          "command": "type",
+          "target": "name=fromVal",
+          "targets": [
+            [
+              "name=fromVal",
+              "name"
+            ],
+            [
+              "css=td:nth-child(1) > input",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@name='fromVal']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//input",
+              "xpath:position"
+            ]
+          ],
+          "value": "5"
+        },
+        {
+          "id": "198908c6-8368-4c98-82de-1739a464f615",
+          "comment": "",
+          "command": "click",
+          "target": "css=#calTo > option:nth-child(2)",
+          "targets": [
+            [
+              "css=#calTo > option:nth-child(2)",
+              "css:finder"
+            ],
+            [
+              "xpath=(//option[@value='2'])[2]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//select[@id='calTo']/option[2]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//td[2]/select/option[2]",
+              "xpath:position"
+            ],
+            [
+              "xpath=//option[contains(.,'Square Kilometer (0.000005)')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "39ffa10b-397a-4ffa-8f21-fb0d82e5c137",
+          "comment": "",
+          "command": "click",
+          "target": "css=#calTo > option:nth-child(2)",
+          "targets": [
+            [
+              "css=#calTo > option:nth-child(2)",
+              "css:finder"
+            ],
+            [
+              "xpath=(//option[@value='2'])[2]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//select[@id='calTo']/option[2]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//td[2]/select/option[2]",
+              "xpath:position"
+            ],
+            [
+              "xpath=//option[contains(.,'Square Kilometer (0.000005)')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "b1baf99a-65d1-46d8-a3f3-918681506518",
+          "comment": "",
+          "command": "click",
+          "target": "css=#calTo > option:nth-child(2)",
+          "targets": [
+            [
+              "css=#calTo > option:nth-child(2)",
+              "css:finder"
+            ],
+            [
+              "xpath=(//option[@value='2'])[2]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//select[@id='calTo']/option[2]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//td[2]/select/option[2]",
+              "xpath:position"
+            ],
+            [
+              "xpath=//option[contains(.,'Square Kilometer (0.000005)')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "a021bfc8-750e-4313-ac66-1bf8041b3703",
+          "comment": "",
+          "command": "doubleClick",
+          "target": "css=#calTo > option:nth-child(2)",
+          "targets": [
+            [
+              "css=#calTo > option:nth-child(2)",
+              "css:finder"
+            ],
+            [
+              "xpath=(//option[@value='2'])[2]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//select[@id='calTo']/option[2]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//td[2]/select/option[2]",
+              "xpath:position"
+            ],
+            [
+              "xpath=//option[contains(.,'Square Kilometer (0.000005)')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "5d2b0561-d49d-4343-9f84-7bc8a00eb8dc",
+          "comment": "",
+          "command": "mouseDownAt",
+          "target": "css=#calTo > option:nth-child(2)",
+          "targets": [
+            [
+              "css=#calTo > option:nth-child(2)",
+              "css:finder"
+            ],
+            [
+              "xpath=(//option[@value='2'])[2]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//select[@id='calTo']/option[2]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//td[2]/select/option[2]",
+              "xpath:position"
+            ],
+            [
+              "xpath=//option[contains(.,'Square Kilometer (0.000005)')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": "99.33332824707031,10.135406494140625"
+        },
+        {
+          "id": "f34a52da-01a4-4957-9079-b55ff3c257a5",
+          "comment": "",
+          "command": "mouseMoveAt",
+          "target": "css=#calTo > option:nth-child(2)",
+          "targets": [
+            [
+              "css=#calTo > option:nth-child(2)",
+              "css:finder"
+            ],
+            [
+              "xpath=(//option[@value='2'])[2]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//select[@id='calTo']/option[2]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//td[2]/select/option[2]",
+              "xpath:position"
+            ],
+            [
+              "xpath=//option[contains(.,'Square Kilometer (0.000005)')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": "99.33332824707031,10.135406494140625"
+        },
+        {
+          "id": "67c719c6-82d1-4020-92a0-feb24a7fca1d",
+          "comment": "",
+          "command": "mouseUpAt",
+          "target": "css=#calTo > option:nth-child(2)",
+          "targets": [
+            [
+              "css=#calTo > option:nth-child(2)",
+              "css:finder"
+            ],
+            [
+              "xpath=(//option[@value='2'])[2]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//select[@id='calTo']/option[2]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//td[2]/select/option[2]",
+              "xpath:position"
+            ],
+            [
+              "xpath=//option[contains(.,'Square Kilometer (0.000005)')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": "99.33332824707031,10.135406494140625"
+        },
+        {
+          "id": "3620208c-914a-429d-b4a2-bfd655a1e5cb",
+          "comment": "",
+          "command": "click",
+          "target": "css=#calTo > option:nth-child(2)",
+          "targets": [
+            [
+              "css=#calTo > option:nth-child(2)",
+              "css:finder"
+            ],
+            [
+              "xpath=(//option[@value='2'])[2]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//select[@id='calTo']/option[2]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//td[2]/select/option[2]",
+              "xpath:position"
+            ],
+            [
+              "xpath=//option[contains(.,'Square Kilometer (0.000005)')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "21773675-ee03-4b43-8dac-85b1646ec2e8",
+          "comment": "",
+          "command": "mouseDownAt",
+          "target": "css=#calTo > option:nth-child(2)",
+          "targets": [
+            [
+              "css=#calTo > option:nth-child(2)",
+              "css:finder"
+            ],
+            [
+              "xpath=(//option[@value='2'])[2]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//select[@id='calTo']/option[2]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//td[2]/select/option[2]",
+              "xpath:position"
+            ],
+            [
+              "xpath=//option[contains(.,'Square Kilometer (0.000005)')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": "9.333328247070312,12.135406494140625"
+        },
+        {
+          "id": "9aa597b3-861b-46cd-a17e-dd896a0bfdd8",
+          "comment": "",
+          "command": "mouseMoveAt",
+          "target": "css=#calTo > option:nth-child(2)",
+          "targets": [
+            [
+              "css=#calTo > option:nth-child(2)",
+              "css:finder"
+            ],
+            [
+              "xpath=(//option[@value='2'])[2]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//select[@id='calTo']/option[2]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//td[2]/select/option[2]",
+              "xpath:position"
+            ],
+            [
+              "xpath=//option[contains(.,'Square Kilometer (0.000005)')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": "9.333328247070312,12.135406494140625"
+        },
+        {
+          "id": "35df54cd-b5c8-4000-92ad-ba8402a12069",
+          "comment": "",
+          "command": "mouseUpAt",
+          "target": "css=#calTo > option:nth-child(2)",
+          "targets": [
+            [
+              "css=#calTo > option:nth-child(2)",
+              "css:finder"
+            ],
+            [
+              "xpath=(//option[@value='2'])[2]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//select[@id='calTo']/option[2]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//td[2]/select/option[2]",
+              "xpath:position"
+            ],
+            [
+              "xpath=//option[contains(.,'Square Kilometer (0.000005)')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": "9.333328247070312,12.135406494140625"
+        },
+        {
+          "id": "5641d655-e016-4160-bc15-7cf684099cc0",
+          "comment": "",
+          "command": "click",
+          "target": "css=body",
+          "targets": [
+            [
+              "css=body",
+              "css:finder"
+            ],
+            [
+              "xpath=//body",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "17d0fb6e-6983-47f1-9083-39daa13c4f06",
+          "comment": "",
+          "command": "click",
+          "target": "css=#calTo > option:nth-child(2)",
+          "targets": [
+            [
+              "css=#calTo > option:nth-child(2)",
+              "css:finder"
+            ],
+            [
+              "xpath=(//option[@value='2'])[2]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//select[@id='calTo']/option[2]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//td[2]/select/option[2]",
+              "xpath:position"
+            ],
+            [
+              "xpath=//option[contains(.,'Square Kilometer (0.000005)')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "ae6fff78-da91-4f48-92e9-fc54673f8572",
+          "comment": "",
+          "command": "click",
+          "target": "css=tr:nth-child(3) > td:nth-child(2)",
+          "targets": [
+            [
+              "css=tr:nth-child(3) > td:nth-child(2)",
+              "css:finder"
+            ],
+            [
+              "xpath=//tr[3]/td[2]",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "624df813-8ffa-4530-9090-74d46a4bd81b",
+          "comment": "",
+          "command": "mouseDownAt",
+          "target": "css=#calTo > option:nth-child(2)",
+          "targets": [
+            [
+              "css=#calTo > option:nth-child(2)",
+              "css:finder"
+            ],
+            [
+              "xpath=(//option[@value='2'])[2]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//select[@id='calTo']/option[2]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//td[2]/select/option[2]",
+              "xpath:position"
+            ],
+            [
+              "xpath=//option[contains(.,'Square Kilometer (0.000005)')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": "39.33332824707031,8.135406494140625"
+        },
+        {
+          "id": "ac8ff9b6-123b-412a-80f3-aac17b070b66",
+          "comment": "",
+          "command": "mouseMoveAt",
+          "target": "css=#calTo > option:nth-child(2)",
+          "targets": [
+            [
+              "css=#calTo > option:nth-child(2)",
+              "css:finder"
+            ],
+            [
+              "xpath=(//option[@value='2'])[2]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//select[@id='calTo']/option[2]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//td[2]/select/option[2]",
+              "xpath:position"
+            ],
+            [
+              "xpath=//option[contains(.,'Square Kilometer (0.000005)')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": "39.33332824707031,8.135406494140625"
+        },
+        {
+          "id": "19db4d67-93ea-4435-aa50-75892e9b5a43",
+          "comment": "",
+          "command": "mouseUpAt",
+          "target": "css=#calTo > option:nth-child(2)",
+          "targets": [
+            [
+              "css=#calTo > option:nth-child(2)",
+              "css:finder"
+            ],
+            [
+              "xpath=(//option[@value='2'])[2]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//select[@id='calTo']/option[2]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//td[2]/select/option[2]",
+              "xpath:position"
+            ],
+            [
+              "xpath=//option[contains(.,'Square Kilometer (0.000005)')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": "39.33332824707031,8.135406494140625"
+        },
+        {
+          "id": "2d67e620-85ca-4755-91a0-548ff3658257",
+          "comment": "",
+          "command": "click",
+          "target": "css=#calTo > option:nth-child(2)",
+          "targets": [
+            [
+              "css=#calTo > option:nth-child(2)",
+              "css:finder"
+            ],
+            [
+              "xpath=(//option[@value='2'])[2]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//select[@id='calTo']/option[2]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//td[2]/select/option[2]",
+              "xpath:position"
+            ],
+            [
+              "xpath=//option[contains(.,'Square Kilometer (0.000005)')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "5fbe6fa0-aba4-4868-909e-2e2850a8d9cc",
+          "comment": "",
+          "command": "assertText",
+          "target": "css=#calTo > option:nth-child(2)",
+          "targets": [
+            [
+              "css=#calTo > option:nth-child(2)",
+              "css:finder"
+            ],
+            [
+              "xpath=(//option[@value='2'])[2]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//select[@id='calTo']/option[2]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//td[2]/select/option[2]",
+              "xpath:position"
+            ],
+            [
+              "xpath=//option[contains(.,'Square Kilometer (0.000005)')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": "Square Kilometer (0.000005)"
+        },
+        {
+          "id": "9317748e-fc79-4552-9845-c1472f88dbe5",
+          "comment": "",
+          "command": "close",
+          "target": "",
+          "targets": [],
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "suites": [
+    {
+      "id": "b857eead-086c-4804-8d95-5e6a04bccefc",
+      "name": "Default Suite",
+      "persistSession": false,
+      "parallel": false,
+      "timeout": 300,
+      "tests": [
+        "51cf13b0-b8f3-428c-8868-cf51155fbf3a",
+        "ee6cfcc2-50ad-4b8b-a26d-f722d997febe",
+        "e3b604af-6f2d-4dcc-8bc1-c379bc1ef7a8",
+        "1149147d-4cd8-412e-b046-75a104de4ac1",
+        "227c3da8-c848-469e-b7d0-218b09287896",
+        "79b2ba01-c0f3-4caa-a372-ac1ca5a00984",
+        "fa69bf67-16d9-4088-b515-6fa5c83a0c5e",
+        "4e7773e0-d8ca-44fe-a6c3-0529264d6a19",
+        "e06b47cf-e8f2-44c8-8a85-68a0a28142fa",
+        "7d9b5b42-4d64-4fa8-af1f-3fdf72b18d69"
+      ]
+    }
+  ],
+  "urls": [
+    "https://www.calculator.net/body-fat-calculator.html"
+  ],
+  "plugins": []
+}

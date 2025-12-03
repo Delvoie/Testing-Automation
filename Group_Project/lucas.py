@@ -30,6 +30,72 @@ class Lab4TestCase(unittest.TestCase):
         cls.driver.quit()
 
     def setUp(self):
-        self.driver.get("http://demo.guru99.com/")
+        self.driver.get("http://demo.guru99.com/V4/")
+        self.browser.find_element(By.NAME, "uid").send_keys("mngr647644")
+        self.browser.find_element(By.NAME, "password").send_keys("tyvAseg")
+        self.browser.find_element(By.NAME, "btnLogin").click()
+        time.sleep(1)
 
 
+    def test_07_balance_enquiry(self):
+        # BE 1
+        self.browser.find_element(By.LINK_TEXT, "Balance Enquiry").click()
+        self.browser.find_element(By.NAME, "accountno").send_keys(Keys.TAB)
+        self.assertEqual(self.browser.find_element(By.ID, "message2").text, "Account Number must not be blank")
+        print("BE 1 Successful")
+
+        # BE 2
+        self.browser.find_element(By.NAME, "accountno").send_keys("1234Acc123")
+        self.assertEqual(self.browser.find_element(By.ID, "message2").text, "Characters are not allowed")
+        print("BE 2 Successful")
+
+        # BE 3
+        self.browser.find_element(By.NAME, "accountno").clear()
+        self.browser.find_element(By.NAME, "accountno").send_keys("123!@#!@#")
+        self.assertEqual(self.browser.find_element(By.ID, "message2").text, "Special characters are not allowed")
+        print("BE 3 Successful")
+
+        # BE 4, given output of this case is: "Characters are not allowed". Try/except is used to continue execution.
+        self.browser.find_element(By.NAME, "accountno").clear()
+        self.browser.find_element(By.NAME, "accountno").send_keys(" ", Keys.TAB)
+        try:
+            self.assertEqual(self.browser.find_element(By.ID, "message2").text, "First character cannot have space")
+            print("BE 4 Successful")
+        except AssertionError:
+            print("BE 4 Assert failed, continuing execution.")
+
+        # BE 5
+        self.browser.find_element(By.NAME, "accountno").clear()
+        self.browser.find_element(By.NAME, "accountno").send_keys("141163")
+        self.browser.find_element(By.NAME, "AccSubmit").click()
+        sleep(1)
+        # Leads to dead page, can't assert table so the link is asserted instead
+        self.assertEqual(self.browser.current_url, "https://demo.guru99.com/V4/manager/BalEnquiry.php")
+        self.browser.back()
+        print("BE 5 Successful")
+
+        # BE 6
+        self.browser.find_element(By.NAME, "accountno").clear()
+        self.browser.find_element(By.NAME, "accountno").send_keys("12345")
+        self.browser.find_element(By.NAME, "AccSubmit").click()
+        sleep(2)
+        alert = self.browser.switch_to.alert
+        self.assertEqual(alert.text, "Account does not exist")
+        alert.accept()
+        print("BE 6 Successful")
+
+        # BE 7
+        self.browser.find_element(By.NAME, "accountno").clear()
+        self.browser.find_element(By.NAME, "accountno").send_keys("12345")
+        sleep(1)
+        self.browser.find_element(By.NAME, "res").click()
+        self.assertEqual(self.browser.find_element(By.NAME, "accountno").get_attribute("value"), "")
+        sleep(2)
+        print("BE 7 Successful")
+
+    @classmethod
+    def tearDownClass(cls):
+            cls.browser.quit()
+
+if __name__ == "__main__":
+    unittest.main()

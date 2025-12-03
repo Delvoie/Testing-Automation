@@ -37,10 +37,10 @@ class Ice5TestCase(unittest.TestCase):
         self.browser.find_element(By.NAME, "password").send_keys("Password1234")
         self.browser.find_element(By.NAME, "submit").click()
 
-"""
+
         target = self.browser.find_element(By.CSS_SELECTOR, "h3")
         self.assertEqual("Login Successfully", target.text)
-"""
+
 
     @classmethod
     def tearDownClass(cls):

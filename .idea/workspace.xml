@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af003be5-7666-4238-b833-a1935ce6d9f3" name="Changes" comment="a">
-      <change beforePath="$PROJECT_DIR$/Group_Project/Module7.py" beforeDir="false" afterPath="$PROJECT_DIR$/Group_Project/Module7.py" afterDir="false" />
-    </list>
+    <list default="true" id="af003be5-7666-4238-b833-a1935ce6d9f3" name="Changes" comment="a" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,6 +44,7 @@
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python tests.Python tests for Group_Project.Module7.Module7TestCases.test_06_delete_account.executor": "Run",
     "Python tests.Python tests for Group_Project.lucas.Lab4TestCase.test_BE1.executor": "Run",
     "Python tests.Python tests for Group_Project.lucas.Lab4TestCase.test_BE2.executor": "Run",
     "Python tests.Python tests for Group_Project.lucas.Lab4TestCase.test_BE4.executor": "Run",
@@ -362,7 +361,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764884330985</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="a">
+      <option name="closed" value="true" />
+      <created>1764884573479</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1764884573482</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

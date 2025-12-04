@@ -3,7 +3,6 @@
 # Programmers:  Lucas Delvoie
 # Description: Lucas' section for Group Project module 7 test cases 1-7
 
-
 import time
 import unittest
 
@@ -60,7 +59,7 @@ class Module7TestCases(unittest.TestCase):
         time.sleep(2) # wait for page load
         self.driver.find_element(By.NAME, "accountno").send_keys(" " + Keys.TAB)
         errorhandling = self.driver.find_element(By.ID, "message2").text
-        print(errorhandling)
+        print("Test BE4 actual result:" + errorhandling) # Debug line to show actual result
         print("Test BE4 Failed: Bug Found (Leading space not detected)")
 
     @classmethod

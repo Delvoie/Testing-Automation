@@ -68,3 +68,28 @@ class Module7TestCases(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+    def test_06_delete_account(self):
+        # DA 1
+        self.browser.find_element(By.LINK_TEXT, "Delete Account").click()
+        self.browser.find_element(By.NAME, "accountno").send_keys(Keys.TAB)
+        self.assertEqual(self.browser.find_element(By.ID, "message2").text, "Account Number must not be blank")
+        print("DA 1 Successful")
+
+        # DA 2
+        self.browser.find_element(By.NAME, "accountno").send_keys("1234Acc123")
+        self.assertEqual(self.browser.find_element(By.ID, "message2").text, "Characters are not allowed")
+        print("DA 2 Successful")
+
+        # DA 3
+        self.browser.find_element(By.NAME, "accountno").clear()
+        self.browser.find_element(By.NAME, "accountno").send_keys("123!@#!@#")
+        self.assertEqual(self.browser.find_element(By.ID, "message2").text, "Special characters are not allowed")
+        print("DA 3 Successful")
+
+        # DA 4
+        self.browser.find_element(By.NAME, "accountno").clear()
+        self.browser.find_element(By.NAME, "accountno").send_keys("123 12")
+        self.assertEqual(self.browser.find_element(By.ID, "message2").text, "Characters are not allowed")
+        print("DA 4 Successful")

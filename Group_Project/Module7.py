@@ -90,7 +90,7 @@ class Module7TestCases(unittest.TestCase):
         print("BE 6 Successful")
 
     # Test Case 
-    def test_BE6(self):
+    def test_BE7(self):
         self.driver.find_element(By.NAME, "accountno").clear()
         self.driver.find_element(By.NAME, "accountno").send_keys("12345")
         time.sleep(1)

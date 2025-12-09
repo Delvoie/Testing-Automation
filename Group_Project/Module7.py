@@ -1,7 +1,7 @@
 # Date: Nov 29, 2025
 # Name: Module7.py - Group Project
 # Programmers:  Lucas Delvoie
-# Description: Lucas' section for Group Project module 7 test cases 1-7
+# Description: Lucas' section for Group Project module 7 test cases 1-7 50% coverage for deliverable 2
 
 import time
 import unittest
@@ -61,30 +61,6 @@ class Module7TestCases(unittest.TestCase):
         errorhandling = self.driver.find_element(By.ID, "message2").text
         print("Test BE4 actual result:" + errorhandling) # Debug line to show actual result
         print("Test BE4 Failed: Bug Found (Leading space not detected)")
-
-    def test_06_delete_account(self):
-        # DA 1
-        self.driver.find_element(By.LINK_TEXT, "Delete Account").click()
-        self.driver.find_element(By.NAME, "accountno").send_keys(Keys.TAB)
-        self.assertEqual(self.driver.find_element(By.ID, "message2").text, "Account Number must not be blank")
-        print("DA 1 Successful")
-
-        # DA 2
-        self.driver.find_element(By.NAME, "accountno").send_keys("1234Acc123")
-        self.assertEqual(self.driver.find_element(By.ID, "message2").text, "Characters are not allowed")
-        print("DA 2 Successful")
-
-        # DA 3
-        self.driver.find_element(By.NAME, "accountno").clear()
-        self.driver.find_element(By.NAME, "accountno").send_keys("123!@#!@#")
-        self.assertEqual(self.driver.find_element(By.ID, "message2").text, "Special characters are not allowed")
-        print("DA 3 Successful")
-
-        # DA 4
-        self.driver.find_element(By.NAME, "accountno").clear()
-        self.driver.find_element(By.NAME, "accountno").send_keys("123 12")
-        self.assertEqual(self.driver.find_element(By.ID, "message2").text, "Characters are not allowed")
-        print("DA 4 Successful")
 
     @classmethod
     def tearDownClass(cls):

@@ -59,27 +59,34 @@ class Module7TestCases(unittest.TestCase):
         time.sleep(2) # wait for page load
         self.driver.find_element(By.NAME, "accountno").send_keys(" " + Keys.TAB)
         errorhandling = self.driver.find_element(By.ID, "message2").text
-        print("Test BE4 actual result:" + errorhandling) # Debug line to show actual result
-        print("Test BE4 Failed: Bug Found (Leading space not detected)")
+        # Check Error Handling Logic
+        if errorhandling == "First character cannot have a space":
+            print("Test BE4 passed")
+        else:
+            print("Test BE4 actual result: " + errorhandling) # Debug line to show the actual result
+            print("Test BE4 Failed: Bug Found (Leading space not detected)")
     
-    # Test Case 
+    # Test Case BE5: Verify that a successful balance enquiry leads to the Balance Enquiry Result page.
     def test_BE5(self):
         element = self.driver.find_element(By.LINK_TEXT, "Balance Enquiry")
         self.driver.execute_script("arguments[0].click();", element)
         time.sleep(2) # wait for page load
         self.driver.find_element(By.NAME, "accountno").clear()
-        self.driver.find_element(By.NAME, "accountno").send_keys("31493")
+        self.driver.find_element(By.NAME, "accountno").send_keys("178857")
         self.driver.find_element(By.NAME, "AccSubmit").click()
         time.sleep(1)
-        # Leads to dead page, can't assert table so the link is asserted instead
+        # Leads to a dead page, so we asserted the URL instead
         print(self.driver.current_url)
         if self.driver.current_url == "https://demo.guru99.com/V4/manager/BalEnquiry.php":
-             print("BE 5 Successful")
+             print("BE 5 Failed: Bug Found (successful balance enquiry leads to dead page)")
         else:
-            print("BE 5 Failed")
+            print("BE 5 Failed: Bug Found (unexpected redirection)")
 
-    # Test Case 
+    # Test Case BE6: Verify that an error message is displayed when a non-existent Account Number is entered.
     def test_BE6(self):
+        element = self.driver.find_element(By.LINK_TEXT, "Balance Enquiry")
+        self.driver.execute_script("arguments[0].click();", element)
+        time.sleep(2)
         self.driver.find_element(By.NAME, "accountno").clear()
         self.driver.find_element(By.NAME, "accountno").send_keys("12345")
         self.driver.find_element(By.NAME, "AccSubmit").click()
@@ -89,10 +96,13 @@ class Module7TestCases(unittest.TestCase):
         alert.accept()
         print("BE 6 Successful")
 
-    # Test Case 
+    # Test Case BE7: Verify that the Account Number field is cleared after a successful balance enquiry.
     def test_BE7(self):
+        element = self.driver.find_element(By.LINK_TEXT, "Balance Enquiry")
+        self.driver.execute_script("arguments[0].click();", element)
+        time.sleep(2)
         self.driver.find_element(By.NAME, "accountno").clear()
-        self.driver.find_element(By.NAME, "accountno").send_keys("12345")
+        self.driver.find_element(By.NAME, "accountno").send_keys("qwer 12345")
         time.sleep(1)
         self.driver.find_element(By.NAME, "res").click()
         self.assertEqual(self.driver.find_element(By.NAME, "accountno").get_attribute("value"), "")

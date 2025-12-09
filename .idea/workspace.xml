@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af003be5-7666-4238-b833-a1935ce6d9f3" name="Changes" comment="a">
+    <list default="true" id="af003be5-7666-4238-b833-a1935ce6d9f3" name="Changes" comment="test fix">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Group_Project/Module7.py" beforeDir="false" afterPath="$PROJECT_DIR$/Group_Project/Module7.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,49 +44,53 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python tests.Python tests for Group_Project.Module7.Module7TestCases.test_06_delete_account.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for Group_Project.lucas.Lab4TestCase.test_BE1.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for Group_Project.lucas.Lab4TestCase.test_BE2.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for Group_Project.lucas.Lab4TestCase.test_BE4.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for ICE.ICE5.Ice5TestCase.test02_login.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for Labs.lab4.Lab4.Lab4TestCase.test_01validgender.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for Labs.lab4.Lab4.Lab4TestCase.test_02validmale.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in ICE5.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in Lab3_Alyssa_Lucas_test.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in Lab4.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in Module3.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in Module7.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in default-suite.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in lab4.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in lab4_Alyssa_Lucas.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in lucas.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_Lab3_Alyssa_Lucas.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_Lab4_Lucas1_Alyssa2.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_minumum.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_minumum1.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Lab3_Alyssa_Lucas_app.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Lab_proof_of_concept.executor&quot;: &quot;Run&quot;,
-    &quot;Python.minumum.executor&quot;: &quot;Run&quot;,
-    &quot;Python.seleniumfirsttest.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test_minumum.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test_minumum1.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/ldelv/OneDrive/Desktop/repos/Testing-Automation/Labs/lab4&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python tests.Python tests for Group_Project.Module7.Module7TestCases.test_06_delete_account.executor": "Run",
+    "Python tests.Python tests for Group_Project.Module7.Module7TestCases.test_BE4.executor": "Run",
+    "Python tests.Python tests for Group_Project.Module7.Module7TestCases.test_BE5.executor": "Run",
+    "Python tests.Python tests for Group_Project.Module7.Module7TestCases.test_BE6.executor": "Run",
+    "Python tests.Python tests for Group_Project.Module7.Module7TestCases.test_BE7.executor": "Run",
+    "Python tests.Python tests for Group_Project.lucas.Lab4TestCase.test_BE1.executor": "Run",
+    "Python tests.Python tests for Group_Project.lucas.Lab4TestCase.test_BE2.executor": "Run",
+    "Python tests.Python tests for Group_Project.lucas.Lab4TestCase.test_BE4.executor": "Run",
+    "Python tests.Python tests for ICE.ICE5.Ice5TestCase.test02_login.executor": "Run",
+    "Python tests.Python tests for Labs.lab4.Lab4.Lab4TestCase.test_01validgender.executor": "Run",
+    "Python tests.Python tests for Labs.lab4.Lab4.Lab4TestCase.test_02validmale.executor": "Run",
+    "Python tests.Python tests in ICE5.py.executor": "Run",
+    "Python tests.Python tests in Lab3_Alyssa_Lucas_test.py.executor": "Run",
+    "Python tests.Python tests in Lab4.py.executor": "Run",
+    "Python tests.Python tests in Module3.py.executor": "Run",
+    "Python tests.Python tests in Module7.py.executor": "Run",
+    "Python tests.Python tests in default-suite.py.executor": "Run",
+    "Python tests.Python tests in lab4.py.executor": "Run",
+    "Python tests.Python tests in lab4_Alyssa_Lucas.py.executor": "Run",
+    "Python tests.Python tests in lucas.py.executor": "Run",
+    "Python tests.Python tests in test_Lab3_Alyssa_Lucas.py.executor": "Run",
+    "Python tests.Python tests in test_Lab4_Lucas1_Alyssa2.py.executor": "Run",
+    "Python tests.Python tests in test_minumum.py.executor": "Run",
+    "Python tests.Python tests in test_minumum1.py.executor": "Run",
+    "Python.Lab3_Alyssa_Lucas_app.executor": "Run",
+    "Python.Lab_proof_of_concept.executor": "Run",
+    "Python.minumum.executor": "Run",
+    "Python.seleniumfirsttest.executor": "Run",
+    "Python.test_minumum.executor": "Run",
+    "Python.test_minumum1.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "C:/Users/ldelv/OneDrive/Desktop/repos/Testing-Automation/Labs/lab4",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "to.speed.mode.migration.done": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ldelv\OneDrive\Desktop\repos\Testing-Automation\Labs\lab4" />
@@ -96,52 +101,7 @@
       <recent name="C:\Users\ldelv\OneDrive\Desktop\repos\Testing-Automation\Labs\lab4" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for Group_Project.Module7.Lab4TestCase.test_BE1">
-    <configuration name="Python tests for Group_Project.Module7.Lab4TestCase.test_BE1" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="PythonTestingAutomationClass" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;Group_Project.Module7.Lab4TestCase.test_BE1&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for Group_Project.Module7.Lab4TestCase.test_BE2" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="PythonTestingAutomationClass" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;Group_Project.Module7.Lab4TestCase.test_BE2&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for Group_Project.Module7.Lab4TestCase.test_BE4" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="PythonTestingAutomationClass" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;Group_Project.Module7.Lab4TestCase.test_BE4&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Python tests for Group_Project.Module7.Module7TestCases.test_BE4">
     <configuration name="Python tests for Group_Project.Module7.Module7TestCases.test_06_delete_account" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="PythonTestingAutomationClass" />
       <option name="ENV_FILES" value="" />
@@ -157,7 +117,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for Labs.lab4.Lab4.Lab4TestCase.test_02validmale" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for Group_Project.Module7.Module7TestCases.test_BE4" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="PythonTestingAutomationClass" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -168,17 +128,62 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;Labs.lab4.Lab4.Lab4TestCase.test_02validmale&quot;" />
+      <option name="_new_target" value="&quot;Group_Project.Module7.Module7TestCases.test_BE4&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for Group_Project.Module7.Module7TestCases.test_BE5" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="PythonTestingAutomationClass" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;Group_Project.Module7.Module7TestCases.test_BE5&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for Group_Project.Module7.Module7TestCases.test_BE6" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="PythonTestingAutomationClass" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;Group_Project.Module7.Module7TestCases.test_BE6&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for Group_Project.Module7.Module7TestCases.test_BE7" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="PythonTestingAutomationClass" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;Group_Project.Module7.Module7TestCases.test_BE7&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for Group_Project.Module7.Module7TestCases.test_BE4" />
+        <item itemvalue="Python tests.Python tests for Group_Project.Module7.Module7TestCases.test_BE7" />
+        <item itemvalue="Python tests.Python tests for Group_Project.Module7.Module7TestCases.test_BE6" />
+        <item itemvalue="Python tests.Python tests for Group_Project.Module7.Module7TestCases.test_BE5" />
         <item itemvalue="Python tests.Python tests for Group_Project.Module7.Module7TestCases.test_06_delete_account" />
-        <item itemvalue="Python tests.Python tests for Group_Project.Module7.Lab4TestCase.test_BE4" />
-        <item itemvalue="Python tests.Python tests for Group_Project.Module7.Lab4TestCase.test_BE2" />
-        <item itemvalue="Python tests.Python tests for Group_Project.Module7.Lab4TestCase.test_BE1" />
-        <item itemvalue="Python tests.Python tests for Labs.lab4.Lab4.Lab4TestCase.test_02validmale" />
       </list>
     </recent_temporary>
   </component>
@@ -397,7 +402,23 @@
       <option name="project" value="LOCAL" />
       <updated>1765239364396</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="driver fix">
+      <option name="closed" value="true" />
+      <created>1765239399176</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1765239399176</updated>
+    </task>
+    <task id="LOCAL-00027" summary="test fix">
+      <option name="closed" value="true" />
+      <created>1765239414523</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1765239414523</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -413,7 +434,9 @@
     <MESSAGE value="Add XML configuration files for migration state services and implement Module7 test cases" />
     <MESSAGE value="add comments" />
     <MESSAGE value="a" />
-    <option name="LAST_COMMIT_MESSAGE" value="a" />
+    <MESSAGE value="driver fix" />
+    <MESSAGE value="test fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="test fix" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>

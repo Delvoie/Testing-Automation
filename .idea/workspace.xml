@@ -101,7 +101,7 @@
       <recent name="C:\Users\ldelv\OneDrive\Desktop\repos\Testing-Automation\Labs\lab4" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for Group_Project.Module7.Module7TestCases.test_BE4">
+  <component name="RunManager" selected="Python tests.Python tests for Group_Project.Module7.Module7TestCases.test_BE7">
     <configuration name="Python tests for Group_Project.Module7.Module7TestCases.test_06_delete_account" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="PythonTestingAutomationClass" />
       <option name="ENV_FILES" value="" />
@@ -179,8 +179,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for Group_Project.Module7.Module7TestCases.test_BE4" />
         <item itemvalue="Python tests.Python tests for Group_Project.Module7.Module7TestCases.test_BE7" />
+        <item itemvalue="Python tests.Python tests for Group_Project.Module7.Module7TestCases.test_BE4" />
         <item itemvalue="Python tests.Python tests for Group_Project.Module7.Module7TestCases.test_BE6" />
         <item itemvalue="Python tests.Python tests for Group_Project.Module7.Module7TestCases.test_BE5" />
         <item itemvalue="Python tests.Python tests for Group_Project.Module7.Module7TestCases.test_06_delete_account" />
@@ -426,7 +426,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765240366252</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Prod #1">
+      <option name="closed" value="true" />
+      <created>1765240700448</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1765240700448</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

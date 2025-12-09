@@ -67,35 +67,35 @@ class Module7TestCases(unittest.TestCase):
         element = self.driver.find_element(By.LINK_TEXT, "Balance Enquiry")
         self.driver.execute_script("arguments[0].click();", element)
         time.sleep(2) # wait for page load
-        self.browser.find_element(By.NAME, "accountno").clear()
-        self.browser.find_element(By.NAME, "accountno").send_keys("31493")
-        self.browser.find_element(By.NAME, "AccSubmit").click()
+        self.driver.find_element(By.NAME, "accountno").clear()
+        self.driver.find_element(By.NAME, "accountno").send_keys("31493")
+        self.driver.find_element(By.NAME, "AccSubmit").click()
         time.sleep(1)
         # Leads to dead page, can't assert table so the link is asserted instead
-        print(self.browser.current_url)
-        if self.browser.current_url == "https://demo.guru99.com/V4/manager/BalEnquiry.php":
+        print(self.driver.current_url)
+        if self.driver.current_url == "https://demo.guru99.com/V4/manager/BalEnquiry.php":
              print("BE 5 Successful")
         else:
             print("BE 5 Failed")
 
     # Test Case 
     def test_BE6(self):
-        self.browser.find_element(By.NAME, "accountno").clear()
-        self.browser.find_element(By.NAME, "accountno").send_keys("12345")
-        self.browser.find_element(By.NAME, "AccSubmit").click()
+        self.driver.find_element(By.NAME, "accountno").clear()
+        self.driver.find_element(By.NAME, "accountno").send_keys("12345")
+        self.driver.find_element(By.NAME, "AccSubmit").click()
         time.sleep(2)
-        alert = self.browser.switch_to.alert
+        alert = self.driver.switch_to.alert
         self.assertEqual(alert.text, "Account does not exist")
         alert.accept()
         print("BE 6 Successful")
 
     # Test Case 
     def test_BE6(self):
-        self.browser.find_element(By.NAME, "accountno").clear()
-        self.browser.find_element(By.NAME, "accountno").send_keys("12345")
+        self.driver.find_element(By.NAME, "accountno").clear()
+        self.driver.find_element(By.NAME, "accountno").send_keys("12345")
         time.sleep(1)
-        self.browser.find_element(By.NAME, "res").click()
-        self.assertEqual(self.browser.find_element(By.NAME, "accountno").get_attribute("value"), "")
+        self.driver.find_element(By.NAME, "res").click()
+        self.assertEqual(self.driver.find_element(By.NAME, "accountno").get_attribute("value"), "")
         time.sleep(2)
         print("BE 7 Successful")
 

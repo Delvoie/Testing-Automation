@@ -28,7 +28,7 @@ class TestDeleteCustomer(unittest.TestCase):
         self.driver.find_element(By.NAME, "password").send_keys("vUnuguz")
         self.driver.find_element(By.NAME, "btnLogin").click()
         
-        # Delete customer
+        # Select Delete customer
         self.driver.find_element(By.LINK_TEXT, "Delete Customer").click()
         time.sleep(1)
 

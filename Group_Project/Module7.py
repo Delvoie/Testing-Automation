@@ -36,6 +36,7 @@ class Module7TestCases(unittest.TestCase):
         self.driver.find_element(By.NAME, "accountno").send_keys(Keys.TAB)
         self.assertEqual(self.driver.find_element(By.ID, "message2").text, "Account Number must not be blank")
         print("Test BE1 passed")
+        
     # Test Case BE2: Verify that an error message is displayed when the Account Number field contains alphabetic characters.
     def test_BE2(self):
         element = self.driver.find_element(By.LINK_TEXT, "Balance Enquiry")
@@ -44,6 +45,7 @@ class Module7TestCases(unittest.TestCase):
         self.driver.find_element(By.NAME, "accountno").send_keys("1234Acc123")
         self.assertEqual(self.driver.find_element(By.ID, "message2").text, "Characters are not allowed")
         print("Test BE2 passed")
+
     # Test Case BE3: Verify that an error message is displayed when the Account Number field contains special characters.
     def test_BE3(self):
         element = self.driver.find_element(By.LINK_TEXT, "Balance Enquiry")
@@ -52,6 +54,7 @@ class Module7TestCases(unittest.TestCase):
         self.driver.find_element(By.NAME, "accountno").send_keys("23!@#!@#")
         self.assertEqual(self.driver.find_element(By.ID, "message2").text, "Special characters are not allowed")
         print("Test BE3 passed")
+
     # Test Case BE4: Verify that an error message is displayed when the Account Number field contains leading spaces.
     def test_BE4(self):
         element = self.driver.find_element(By.LINK_TEXT, "Balance Enquiry")
